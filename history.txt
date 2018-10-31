@@ -1,0 +1,4500 @@
+node tiger.js 
+npm -v
+npm -h
+npm list
+node tiger.js 
+node tiger.js 
+node tiger.js 
+node tiger.js 
+node tiger.js 
+node tiger.js 
+node tiger.js 
+node tiger.js 
+ls
+git add tiger.js 
+git commit -m "From memory create an array of objects, but no server interaction yet."
+git commit -m "From memory create an array of objects, but no server interaction yet."
+node tiger.js 
+node tiger.js 
+node tiger.js 
+node tiger.js 
+node tiger.js 
+git add tiger.js 
+git commit -m "Mad a single GET router"
+node tiger.js 
+node tiger.js 
+git add tiger.js 
+git commit -m "Make a flexible route that accepts references to the staffmembers array. GET  /staff/3"
+git push hahn master
+ls
+cd ..
+ls
+cd four/server
+ls
+node workRouter.js 
+node workRouter.js 
+node workRouter.js 
+git remote
+git add ideasRouter.js workRouter.js 
+ls -lrt
+git commit -m "Require help functions from DB.JS"
+node workRouter.js 
+node workRouter.js 
+cd ..
+ls -lrt
+cd server
+ls
+node api.js 
+node api.js 
+node api.js 
+node api.js 
+node api.js 
+node api.js 
+ls 
+node db.js
+node
+ls
+node api.js
+node api.js
+node api.js
+node api.js
+node api.js
+git add workRouter.js api.js 
+git commit -m "Make API + workRouter work for the first route: GET ALL"
+git push boss master
+node api.js
+node api.js
+node api.js
+node api.js
+node api.js
+node api.js
+node api.js
+git add api.js
+git add ideasRouter.js 
+git commit -m "Make a second route work: GET by ID"
+git push boss master
+cal 2018
+pwd
+ls
+git add workRouter.js 
+git commit -m "Start route for add a work item."
+git push boss master
+ls
+cd ..
+ls
+git add read-evs-devNotes.md 
+git commit -m "Copy down what the structures are for MEETINGS, IDEAS, et al. Easy to find in the DB.JS."
+git push boss master
+ls
+ls
+ls -lrt
+git add read-evs-devNotes.md 
+git commit -m "Figured out the object in PUT a bit more."
+git add read-evs-devNotes.md 
+git log
+git master
+git remote
+cd server
+ls
+git log
+git remote
+ls -lrt
+git log
+git push boss master
+cd ..
+git push boss master
+cd ..
+pwd
+ls
+cd four/
+ls
+cd server
+ls
+pwd
+node api.js 
+node api.js 
+node api.js 
+pwd
+cd ..
+npm run start
+npm install morgan
+npm install body-parser
+npm run start
+npm run start
+man find
+pwd
+find four/* "lib/cli"
+find four "lib/cli"
+find ./four "lib/cli"
+grep . "lib/cli"
+grep  "lib/cli" .
+grep  -r "lib/cli" .
+npm install babel
+npm babel-cli
+npm run start
+cd server
+pwd
+npm run start
+npm install
+npm run start
+ls
+cd ..
+ls
+mv server.js serverEV.js
+npm run start
+cd ..
+ls
+cd virgin-four/
+npm run start
+npm install
+ls
+npm run start
+ls
+cd project-4-boss-machine/
+ls
+npm install
+npm run start
+npm run start
+exit
+cd Dropbox/code/cold/four/
+ls
+git log
+npm run
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm run start
+npm run start
+npm run start
+npm run start
+git add server/workRouter.js 
+git commit -m "Make the route 'Get work by ID' sort of work."
+git push boss master
+cal
+cd Dropbox/code/cold/four/
+ls
+ls -lrt
+git add package.json package-lock.json 
+git commit -m "Changed npm json during the reinstall of node.  (Reinstalled node because I was getting errors of missing LIB/CLI or something like that.)"
+git remote
+git push boss master
+git log
+npm start
+npm start
+npm start
+git push boss master
+npm start
+git add server/workRouter.js 
+git commit -m "Make the second route work.  Make GET BY ID work.  (Problem turned out to mostly be I wasn't passing in the required first argument WORK or MINION)."
+git push boss master
+ls
+firefox index.html 
+man firefox
+ls -lrt
+cd server
+ls -lrt
+git log
+npm start
+npm start
+git add workRouter.js 
+git commit -m "New route for WORK    PUT runs in NPM START with no error.  Assume okay. (No minions route exist yet to support it. Work on Minion routes now.)"
+git push boss master
+ls
+ls
+ls -lrt
+node minionsRouter.js 
+ls
+ls
+node minionsRouter.js 
+node minionsRouter.js 
+node minionsRouter.js 
+node minionsRouter.js 
+node minionsRouter.js 
+node minionsRouter.js 
+node minionsRouter.js 
+node minionsRouter.js 
+git add minionsRouter.js 
+git commit -m "Make minions router bare bones.  Run it in Node only, not app environment yet.  Make the GET ALL route work, incl sanity-check."
+git push boss master
+ls
+node minionsRouter.js 
+git log
+git add minionsRouter.js 
+git commit -m "Make a GETBYID route in minions and start a POST route. Now switch to API to get the details of parsing so you know what the incoming request object will have in it."
+git status
+git add api.js 
+git commit -m "Change route /PANCHO to GET /TEST.  Uncomment the minions route in API.JS."
+ls -lrt
+node api.js 
+node api.js 
+node ../server.js 
+npm start
+git add ../read-evs-devNotes.md 
+git commit -m "Updated next-actions Monday.  Trying to decode incoming REQ object to use for POST"
+git add api.js workRouter.js 
+git commit -m "Routes were not quite right.  Add a /API/MINIONS at the api, remove same from the WORKROUTER."
+git push boss master
+cd Dropbox/code/cold/four/
+ls
+ls -lrt
+ls -lrt server/
+add server.js 
+git add server.js 
+git commit -m "Add CORS module.  USE it."
+ls server.js 
+npm install cors
+node server.js 
+git add server.js server/api.js 
+git commit -m "Trim the bloat out of the API and SERVER routes.  I only have the confidence to do this because of following the Boss solution I am peaking at lest I lose the thread of this five-file project entirely."
+node server.js
+npm start
+npm start
+node server.js 
+ls -lrt
+ls server/api.js 
+ls -lrt server/api.js 
+ls -lrt server/api.js 
+ls -lrt server/api.js 
+node server.js 
+pwd
+ls -lrt
+ls -lrt server/
+ls -lrt
+ls -lrt server/
+node server/api.js 
+node server/api.js 
+node server/api.js 
+node server.js 
+node server.js 
+node server.js 
+npm start
+npm start
+pwd
+ls -lrt server.js 
+npm start
+npm start
+git add server/api.js 
+git commit -m "Make API at least use BODYPARSER.  Need to always call the method as bodyParser.json"
+git push boss master
+npm start
+ls
+cd Boss-Solution/Boss-Machine/
+ls
+node server.js 
+npm run start
+npm run start
+npm install
+npm run start
+cd ../..
+pwd
+npm install
+npm run start
+pwd
+git add server/minionsRouter.js 
+git commit -m "Make minionRouter serve up ALLMINIONS.JSON for the route '/'  get.  Also, enjoy the newly-added Morgan, showing all kinds of GET, PUT, et al, in the console."
+git push boss master
+cd Dropbox/code/cold/
+ls
+cd build-apis-boss-machine/
+ls
+git add server/minionsRouter.js 
+git commit -m "Add POST.  Figure out where to get incoming data from -- answer: the REQ.BODY   not the REQ.PARAMS."
+git push boss master
+pwd
+node server/minionsRouter.js 
+node server/minionsRouter.js 
+git add server/minionsRouter.js 
+git commit -m "Make a route for PUT."
+git push boss master
+git push boss master
+node server/minionsRouter.js 
+git add server/minionsRouter.js 
+git commit -m "Add routes for DELETE & DELETE-BY-ID"
+git push boss master
+git add server/meetingsRouter.js 
+git commit -m "Clone minions routes to MEETINGS routes.  Don't change nouns yet."
+git push boss master
+node server.js 
+git add server/meetingsRouter.js 
+git commit -m "Refactor all the MINIONS to MEETINGS in the routes."
+git push boss master
+cd Dropbox/code/cold/server/
+cd Dropbox/code/cold/build-apis-boss-machine/server/
+ls
+git add ideasRouter.js 
+git commit -m "Add dependency for funtion CHECK1M$IDEA."
+git push boss master
+ls
+git add checkMillionDollarIdea.js 
+git commit -m "1st commit I think."
+node
+pwd
+ls
+node checkMillionDollarIdea.js 
+node checkMillionDollarIdea.js 
+git commit "Write function to return -3, -2, -1, 0, 1 as flags for checker of mill doll idea."
+git commit -m "Write function to return -3, -2, -1, 0, 1 as flags for checker of mill doll idea."
+git add checkMillionDollarIdea.js 
+pwd
+git commit -m "Write function to return -3, -2, -1, 0, 1 as flags for checker of mill doll idea."
+git push boss master
+node checkMillionDollarIdea.js 
+npm start
+npm start
+npm i -g npm
+sudo npm i -g npm
+npm start
+npm start
+npm start
+npm start
+git add meetingsRouter.js 
+git commit -m "Insert a log to debug the object that is passed into the MEETINGS PUT route."
+git push boss master
+npm start
+git add meetingsRouter.js 
+git commit -m "Comment out much of the meetings router.  This shows that the other routes are pretty much working."
+git push boss master
+bc
+man bc
+bc 
+cd Dropbox/code/
+cd cold/build-apis-boss-machine/
+ls
+ls -lrt
+ls server.
+ls server.js 
+git add server.js 
+git commit -m " Position two error-catcher middlewares at the end of server.js. 
+"
+ls server/ideasRouter.js 
+node server/ideasRouter.js 
+node server/ideasRouter.js 
+node server/ideasRouter.js 
+node server/ideasRouter.js 
+node server/ideasRouter.js 
+node api.js
+node server.js
+node server.js
+git add server/ideasRouter.js 
+git commit -m "#Send it a test error from IDEAS ROUTER.
+"
+git push boss master
+npm start
+git add server/ideasRouter.js 
+git commit -m "Add a working error-thrower that sends errors to the catcher in server.jS. BUT in the process, break the ability of POST in this router."
+git push boss master
+npm run test
+bc
+npm start
+npm start
+npm start
+git add server/api.js 
+git commit -m  "Remove some print statements from API.JS"
+npm start
+npm run test
+bc
+npm run test
+npm run test
+npm start
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+git status
+git push boss master
+git add server/minionsRouter.js 
+git commit -m "Reset point. Minions router seems to work well enough for me, but under the sanctioned tests throws err-objects, 404, et al, unreliably."
+git push boss master
+node
+git add server/minionsRouter.js 
+git commit -m "Only streamline the minionsDELETE by ID route.  Send better error codes from it.  Remove the Error log.  Move let victory to same line, make const victory."
+git push boss master
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+git add server/minionsRouter.js 
+git commit -m "# On minionsRouter, to throw more correct error codes, streamline to less lines, scrap the victory-sorrow flags.  Move flags out of routes, make the retrieving utilities nest less-scrutably, inside the if-then function. Goal: correct BAD ROUTE ERROR **throwing**   Not sure why this works better but it does.  Increase tests passed from 40% to 95
+"
+git push boss master
+npm start
+git add server/ideasRouter.js 
+ls -lrt
+ls -lrt server/
+git 
+exit
+cd Dropbox/code/cold/build-apis-boss-machine/
+ls
+npm run test
+node
+git add server.js
+git commit -m "Just add an error catcher that prints a line of asterisks for visibility and the text of the provided error message.  This is mostly to catch errors from the nebulously described CHECKMILLIONDOLLARIDEA function."
+git push boss master
+git add server/checkMillionDollarIdea.js 
+git commit -m "Streamline the results of CMDI: mostly signal outcomes by sending various STATUS codes.  Only ERROR sent is if negative numbers given as inputs."
+git push boss master
+ls -lrt
+git push boss master
+pwd
+npm start
+npm start
+git add server/ideasRouter.js 
+git commit -m "Make console.log print A BIT of feedback. All routers are working okay."
+git push boss master
+npm start
+npm runs start
+npm start
+npm run
+npm run test
+npm run test
+npm run test
+git log
+npm run test
+npm run test
+npm start
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+git reset -HEAD --hard
+git reset HEAD --hard
+npm run
+npm start
+npm run test
+npm run test
+git add server/checkMillionDollarIdea.js 
+git commit -m "Add a console.log in CMDI that for some reason, never prints anything.  How the heck am I supposed to probe the object being sent in? "
+git push boss master
+npm run test
+git add server/checkMillionDollarIdea.js 
+git commit -m "Make console.log succesfully print a static message inside of CMDI."
+git commit -m "Make console.log succesfully print a static message inside of CMDI."
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+npm run test
+  
+  
+npm run test
+git add server/checkMillionDollarIdea.js 
+git commit -m "Make console.log statements for four different properties of the req object.  Still not sure whether I'm calling the CMDI with anything apporoaching a sane callback trio."
+git push boss master
+git push boss master
+npm run test
+npm run test
+git commit server/checkMillionDollarIdea.js 
+git commit -m "Small victory, SOME weekly info is getting into CMDI.  It sort of works.  Extend it to really work now.  Going to bed."
+git add  server/checkMillionDollarIdea.js 
+git commit -m "Small victory, SOME weekly info is getting into CMDI.  It sort of works.  Extend it to really work now.  Going to bed."
+git push boss master
+cd Dropbox/code/
+ls
+cd cold/build-apis-boss-machine/
+git log
+npm run start
+cal
+fortune
+npm run test
+npm run test
+npm run test
+cd Dropbox/code/cold/build-apis-boss-machine/server/
+ls
+git add minionsRouter.js 
+git commit -m "Just change NO-DELETE error from 404 to 204."
+git push boss master
+git add minionsRouter.js 
+git commit -m "For some reason, minions is down to one error.  Even thougg I think my DEL route is upside down. Ten errors total, incl bonus rounds."
+cd Dropbox/code/cold/build-apis-boss-machine/
+ls
+npm start
+npm run test
+npm start
+npm test
+npm test
+npm test
+npm run test
+git add server/minionsRouter.js 
+git commit -m "Take back out the final error-catcher midware in MINIONSRTR. Test fails down to 3(ten minus seven).  Still failing didn't find a minion test."
+git push boss master
+npm run test
+git log 
+git reset ceeec0f10c17cdc7b60662cbb077
+git reset server/minionsRouter.js  ceeec0f10c17cdc7b60662cbb077
+git log
+git revert help
+git -h revert
+git --help revert
+git resetceeec0f10c17cdc7b60662cbb077 server/minionsRouter.js 
+git reset  ceeec0f10c17cdc7b60662cbb077 server/minionsRouter.js 
+npm run test
+npm run test
+npm run test
+npm run test
+git add server/minionsRouter.js 
+git commit -m "Back down to ten errors BUT IS it calling any route at all?   Really -- not sure what is the origin of the lovely successful 404 error that reappeared.  Really not cool. "
+git push boss master
+npm run test
+npm run test
+npm run test
+pwd
+ls -lrt server/
+npm run test
+git add server/api.js 
+git commit -m "Change the instantiator syntax so it invokes APIROUTER with MERGEPARAMS-TRUE.  Eleven errors after -- no improvement."
+git push boss master
+npm run test
+git add server/minionsRouter.js 
+git commit -m "From MINIONS DELETE removed some print statements, add id to 'api/minions/:id'."
+git push boss master
+git add server/minionsRouter.js 
+git commit -m "Change DELETE route on minionsrouter so it now gives 3 errors of 419 status on the Mocha test.  This is actually an improvement b/c before mocha was getting 404 errors, which showed me there were phantom paths in my routes.  AND comment-out the error catcher below the minions router, see what mocha test does with deletes then."
+npm run test
+npm run test
+git add server/minionsRouter.js 
+git commit -m "Make all error codes on minonsRouter DELETE give good error codes.  Still one glitch: does not delete correct minion."
+git push boss master
+git add server/minionsRouter.js 
+git commit -m "Oops -- GETBYID is there but now, add the second step, DELETEMINIONBYID to minionsrouter."
+npm run test
+npm run test
+npm run test
+git add server/minionsRouter.js 
+git commit -m "Get the errors down to 10.  4, really.  Delete works EXCEpt function that actually deletes, something is wrong, need to minutely examine every word in that line."
+git push boss master
+npm run test
+git add server/minionsRouter.js 
+git commit -m "Improve minion-delete-error.  Make it remove the minion, make it score a TRUE by passing in not-just-id, not-a-hard-coded number.  I bet it just needs type STRING. I bet you could pass in a string '1' and it would work.  So now it just gives wrong response code."
+git push boss master
+npm run test
+git add server/minionsRouter.js 
+git commit -m "Small breakthrough -- lacking 'return' the routes sort of ran like water and didn't return during SEND."
+git push boss master
+npm run test
+git add server/minionsRouter.js 
+git commit -m "Make the error code after a succesful delete 204 NOT 200."
+git add server/minionsRouter.js 
+git commit -m "Minions router works.  Passes all tests."
+git push boss master
+git add server/meetingsRouter.js 
+git commit -m "Typo: make succesful deletion event send 204, not 200."
+npm run test
+git add server/ideasRouter.js 
+git commit -m "Very small fix: remembered to return TRUE after a succesful POSTing of a new idea in IDEASROUTER."
+git push boss master
+cd Dropbox/code/tutorials-computers/
+ls
+pwd
+git add SQL-notes-codecademy-Week-5.md 
+git commit -m "Added how to rename columns."
+git push notes master
+cd Dropbox/code/cold/5/
+ls
+cd olympics/
+ls
+npm test
+npm test
+node sql.js 
+node server.js 
+npm start
+ls
+pwd
+git add sql.js 
+git commit -m "Make the SQL which takes COUNTRY NAME as an argument and returns their all-time total medals aliased as 'count'"
+git push gold master
+npm test
+npm test
+npm test
+npm test
+npm test
+git add sql.js 
+git commit -m "Write the 'most summer medals' function query."
+git push gold master
+cd Dropbox/code/cold/5/
+ls
+cd olympics
+ls
+git add sql.js 
+git commit -m "Write both statements for the options on ORDEREDMEDAL"
+git push gold master
+node add arrrgs.js
+git add arrrgs.js
+ls
+cd ..
+ls
+mv arrrgs.js olympics/
+cd olympics/
+ls
+git add arrrgs.js 
+git commit -m "Quick tester for accessing arg[0], arg[1] per reading the MDN.org page."
+git push gold master
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+node arrrgs.js 
+git add arrrgs.js 
+git commit -m "Oops... (a,b)=>  ECMA6 didn't work.  Use old syntax for functions to make the syntax for passing in args work."
+git push gold master
+npm test
+cd Dropbox/code/cold/5/
+ls
+cd olympics/
+ls -lrt
+git remote
+git fetch gold
+git fetch gold master
+git fetch master gold
+git add README.md 
+git commit -m "Break down the final Query.  Make three small steps as to-dos: (1) nonsense math (2) total a couple columns (3) Make those columns do math"
+git push gold master
+cd ../..
+pwd
+cd ../tutorials-computers/
+ls SQL-notes-codecademy-Week-5.md 
+git add  SQL-notes-codecademy-Week-5.md 
+git commit -m "Add Views syntax from examples."
+git push notes master
+exit
+ls -lrt
+cd Dropbox/code/cold/5/olympics/
+cd ../../..
+pwd
+cd tutorials-computers/
+git add SQL-notes-codecademy-Week-5.md 
+git commit -m "Union and WITH notes."
+ls -lrt
+pwd
+cd ../cold/5/olympics/
+ls
+npm test
+fortune | sed 's/[aeiou]/\n/g'
+fortune | sed 's/[aeiou]/\n/g'
+fortune | sed 's/[aeiou]/\\n/g'
+fortune | sed 's/[aeiou]/n/g'
+fortune | sed 's/[aeiou]/n/g'
+fortune | sed 's/[aeiou]/o/g'
+fortune | sed 's/[aeiou]/o/g'
+fortune | sed 's/[aeiou]/o/g'
+man sed
+man ed
+man replace
+man sub
+exit
+cd Dropbox/code/cold/5/olympics/
+ls -lrt
+who 
+ls -lrt | sed 's/\w/+/g'
+ls -lrt | sed 's/\w/+/g'
+man regex
+man regex | grep 'space'
+man regex | grep '\w'
+man regex | grep '\\w'
+man sed | grep '\\w'
+man regex | grep 'posix'
+man regex | grep 'find'
+man regex | grep 'match'
+man sed
+man sed
+ls -lrt | sed 's/\n/ooooooooo/g'
+ls -lrt | sed 's/\n/ooooooooo/g'
+ls -lrt 
+ls -lrt | sed 's/f/ooooooooo/g'
+ls -lrt | sed 's/\d/ooooooooo/g'
+ls -lrt | sed 's/d/ooooooooo/g'
+ls -lrt | sed -E 's/d/ooooooooo/g'
+ls -lrt | sed -E 's/\d/ooooooooo/g'
+ls -lrt | sed -E 's/\\d/ooooooooo/g'
+man regex
+npm run test
+npm run test
+git add sql.js 
+git commit -m "Alias the count as COUNT."
+git push gold master
+ls -lrt
+git add sql.js 
+git commit -m "Make sure the queries match the names TEST expects.  Double check both the inline commented specs and the video demo of the React.js frontend in action.  Be extremely disappointed that the video provided by codeCademy describes functionality both cooler-than your project you are doing AND lacks any show of what YOUR project is supposed to be doing."
+git commit -m "Make sure the queries match the names TEST expects.  Double check both the inline commented specs and the video demo of the React.js frontend in action.  Be extremely disappointed that the video provided by codeCademy describes functionality both cooler-than your project you are doing AND lacks any show of what YOUR project was required to do."
+git log
+npm test
+npm test
+npm test
+git add sql.js
+git commit -m "Streamline the final, bonus-only function so it returns the correct number of lines."
+git push gold master
+pwd
+cd ../..
+pwd
+mkdir 6
+cd 6
+pwd
+cd Dropbox/code/cold/6/
+ls
+node microGetServer.js 
+pwd
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+cp microGetServer.js objeFuncFromMem.js
+git add objeFuncFromMem.js 
+git commit -m "Just writing object method from memory."
+git push janesville master
+git push janesville master
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+node microGetServer.js 
+git add microGetServer.js 
+git commit -m "Write from memory to review syntax for functions, esp in an object"
+git push janesville master
+git push janesville master
+node microGetServer.js 
+cd Dropbox/code/cold/
+ls
+cd hahn2/
+ls
+git status
+git rm guestBookMay.js
+git status
+git rm renderTest.js views/*
+git status
+git rm renderTest.js
+git rm views/footer.html views/header.html
+git rm views/index.html
+git status
+ls .git/
+ls .git*
+ls -a
+git add images/*
+git rm js/views/
+git rm js/views
+git rm js/views/*
+git status
+git views/*
+git add views/*
+git commit -m "First commit."
+git push red master
+git status
+git pwd
+pwd
+hit add js/app.js 
+git add js/app.js
+git commit -m "Fix typos."
+git status
+git branch 
+git branch inputBox 
+git checkout inputBox
+git branch
+git branch -a
+git push red master
+pwd
+cd ../..
+ls
+ls -lrt
+pwd
+cd tutorials-computers/
+ls -lrt
+rm list-for-not-sure-what-to-do.txt 
+cd ../cold/
+cd hahn2/
+ls
+cd js/
+ls
+ls
+node args-snippet-zakas.js 
+ls -lrt
+git add args-snippet-zakas.js 
+git commit -m "Demo/try-this. How to pass in WHATEVER length of args to a function.  Even allows passing in NO args. Javascript makes me feel dirty."
+git push red master
+git push red master
+git remote
+git status
+git add args-snippet-zakas.js 
+git status
+touch toucanSam
+git add toucanSam 
+git status
+git status
+git add args-snippet-zakas.js 
+git rm toucanSam 
+git rm -f toucanSam 
+git status
+git commit -m "Change nothing.  Just a git test."
+git push red master
+git fetch red
+ls
+node args-snippet-zakas.js 
+node args-snippet-zakas.js 
+git add args-snippet-zakas.js 
+git commit -m "Finish writing the adder function.  Make it accept any number of args and return their sum."
+git status
+git fetch red
+git branch
+cat .gitignore
+ls -a
+cd ..
+git remote
+git status
+git add js/args-snippet-zakas.js 
+git status
+git checkout master
+git status
+ls js/
+git branch
+git checkout inputBox
+ls js/
+git log
+git log --pretty=oneline
+ls
+ls
+cal
+git log --decorate
+git commit -h
+git commit -a
+git rm js/views/*
+git rm -r  js/views/*
+git rm -f js/views/*
+git rmdir -f js/views/*
+git commit --branch
+git push red inputBox
+ls
+ls -lrt
+cd js/
+ls
+ls -lrt
+git status
+git add thisSnippet.js 
+git commit -m "10 lines of code to try out 'THIS' syntax.  D.N.E. outside of this branch."
+git status
+cat ../.gitignore
+git push red inputBox
+git log --pretty
+git merge inputBox master
+git merge master inputBox
+git merge -h
+ls
+node thisSnippet.js 
+git merge master
+git branch
+git log
+git checkout master
+git log
+git merge inputBox
+git push red master
+git log
+node thisSnippet.js 
+git add thisSnippet.js 
+git commit -m "Add mystery line, to see what 'THIS' will do, sans any context."
+git push red master
+git branch
+pwd
+ls
+git add foreachSnippet.js 
+git commit -m "Start snippet to test 'FOREACH' array method built-in."
+git push red master
+node foreachSnippet.js 
+node foreachSnippet.js 
+git add foreachSnippet.js 
+git commit -m "Done.  The snippet 'FOREACH' works, including ARROW => syntax."
+git push red master
+ls
+mv roteArrayMethods.js roteCloudsArray.js
+node roteCloudsArray.js 
+ls views/
+cat views/nn.txt 
+rm -R views/
+rmdir views
+ls
+git status
+git status > ../.gitignore
+nano ../.gitignore
+git status
+cd ..
+ls
+ls -a
+pwd
+nano  .gitignore 
+cd js
+ls
+git add roteCloudsArray.js 
+git commit -m "1st commit."
+git push red master
+ls -lrt
+node roteCloudsArray.js 
+pwd
+head *
+node roteCloudsArray.js 
+node roteCloudsArray.js  | wc
+git add roteCloudsArray.js 
+git commit -m "Write a for loop that has '___; x ; x'  syntax."
+git push red master
+cd ../..
+ls
+cd 6
+ls
+ls -lrt
+git remote
+git remote
+ls -lrt
+rm junkjunkjunk.js 
+ls
+pwd
+git status
+git add 6.6-dbRun.js 
+git commit -m "Solve Codecademy syntax problem 6.6of11."
+git push janesville master
+cd Dropbox/code/cold/6/
+ls -lrt
+node roteLesson6.js 
+node -h
+npm -h
+npm test
+npm search express
+npm install express
+ls
+cp package-lock.json package.json
+less package.json 
+grep 'express' package.json 
+grep 'morgan' package.json 
+npm install morgan
+grep 'morgan' package.json 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+npm version
+grep express package-lock.json 
+grep 'express' package-lock.json 
+grep 'openssl' package-lock.json 
+grep 'express' package.json 
+pwd
+cp roteLesson6.js ../hahn2/
+cd ../hahn2/
+ls
+node roteLesson6.js 
+cp package.json ../6/
+cd ../6/
+ls
+ls -lrt
+pwd
+node roteLesson6.js 
+ls -lrt
+node oliviaRoute.js 
+git add roteLesson6.js 
+git commit -m "Write snippte todos.  (Bug: no express in npm.  Not sure what's wrong.).")
+git commit -m "Write snippet to-dos.  Bug: no express in npm.  Not sure what's wrong..")
+git commit -m "Write snippet to-dos.  (Bug: no express in npm.  Not sure what's wrong..)"
+git push janesville master
+pwd
+ls
+ls
+ls node_modules/
+npm install express
+node roteLesson6.js 
+npm install morgan
+node roteLesson6.js 
+ls node_modules/
+node roteLesson6.js 
+node roteLesson6.js 
+git add roteLesson6.js 
+git commit -m "Fix lack of Express by installing Express.  Write a mini server that returns just the root so far."
+git remote
+git push janesville master
+node roteLesson6.js 
+node roteLesson6.js 
+git add roteLesson6.js 
+git commit -m "Add a GET route for localhost:6565/EGGEN"
+git branch input_receiver
+git checkout input_receiver
+git branch
+ls
+git status
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+git add roteLesson6.js 
+git commit -m "Add an input getter, a la /INDEX/:ID"
+git branch
+git push janesville input_receiver
+git merge master
+git checkout master
+git merge master
+git merge input_receiver
+git branch
+ls -lrt
+git push janesville master
+git log
+git add Lesson6.7.js 
+git -m '1st Commit.  Codecademy Question 6.7 for the Sqlite3 project.'
+git commit -m '1st Commit.  Codecademy Question 6.7 for the Sqlite3 project.'
+git push janesville master
+cd ../..
+ls
+pwd
+cd tutorials-computers/
+git remote
+git add SQL-notes-codecademy-Week-5.md 
+git commit -m "Update the codecademy notes, through 6.7."
+git push notes master
+cd Dropbox/code/cold/6/
+ls
+head rote.js 
+git status
+git add rote.js
+git commit -m "First commit.  Just a garbage warmup file for morning & lunch-time syntax practice."
+git add rote.js 
+git commit -m "Type 9 line that adds a SQLite newline. Write the error function callback, as third arg to the db.run."
+git remote
+git push janesville master
+pwd
+ls
+ls -lrt
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+git add roteLesson6.js 
+git commit -m "Add a message builder called OUT that is called as an IIFE."
+git push roteLesson6.js janesville master
+git remote
+git pull janesville master
+git pull master janesville
+git fetch janesville
+git push janesville master
+node roteLesson6.js 
+node roteLesson6.js 
+git add roteLesson6.js 
+git commit -m "Make a date get inserted."
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+ 
+git add roteLesson6.js 
+git commit -m "Make the eggen function get called and outputted for any word entered at the localhost browser line."
+git push janesville master
+cd Dropbox/code/cold/6/
+ls
+node roteLesson6.js 
+git add roteLesson6.js 
+git commit -m "Add slice text method. Print to screen.  Add date."
+git remote
+git push janesville master
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+node roteLesson6.js 
+git add roteLesson6.js 
+git commit -m "Add newlines to the output message using a Pythonic for-loop. Unfortunately, the newlines only work in the terminal.   The browser window is going to need some devilish <BR> stuff."
+git push janesville master
+ls
+git nano rote.js 
+nano rote.js 
+ls -lrt
+git add rote.js 
+git commit -m "Just a merge test. Added 2 trivial comments on my Mac machine.  Pushed to remote github."
+git push janesville master
+git fetch janesville
+brew mailman
+brew install mailman
+pwd
+cd Dropbox/code/tutorials-computers/
+ls -lrt
+git add SQL-notes-codecademy-Week-5.md 
+git commit -m "Add exercises 9, 10 from Codecademy SQLite3."
+git push notes master
+sftp://lists.wisconsinlandtrusts.org/listinfo.cgi/wilandtrusts-wisconsinlandtrusts.org
+ftp://lists.wisconsinlandtrusts.org/listinfo.cgi/wilandtrusts-wisconsinlandtrusts.org
+ftp:lists.wisconsinlandtrusts.org/listinfo.cgi/wilandtrusts-wisconsinlandtrusts.org
+man ftp
+pwd
+cd ../cold/6/
+ls -lrt
+git add rote10Lesson.js 
+git commit -m "1st Commit.  Build from memory a working db with table."
+git status
+git log
+ls -lrt
+node rote10Lesson.js 
+git fetch -h
+git fetch janesville
+git push janesville master
+pwd
+cd ..
+pwd
+mkdir duck4
+cd duck4/
+git init
+touch .gitignore
+touch README.md
+nano README.md 
+ls -lrt
+ls
+ls -a
+man nano
+man nano | grep 'color'
+man nano | grep 'syntax'
+man nano
+pico README.md 
+man nano
+git status
+git add README.md 
+git commit -m "Commit read me."
+git add css/c04.css 
+git add images/*
+git status
+git commit -m "CSS & images from the JDuckett textbook.http://javascriptbook.com/code/"
+git add index.htm 
+git commit 'First commit.  Type in this 20 line html file to create a base for displaying j.s. sandbox results when I am not at a node-enabled computer.'
+git commit 'First commit.  Type in this 20 line html file to create a base for displaying j.s. sandbox results when I am not at a nodeenabled computer.'
+git status
+git commit -m 'First commit.  Type in this 20 line html file to create a base for displaying j.s. sandbox results when I am not at a nodeenabled computer.'
+ls
+ls -a
+ls -a >> .gitignore
+pico .gitignore
+status
+git status
+git remote bullseye http://github.com/atom-box/bullseye
+git remote add bullseye http://github.com/atom-box/bullseye
+git push bullseye master
+git status
+git add js/*
+git commit -m 'Write two lines to display message, using syntax GETELEMENTBYID & obj.INNERHTML
+'
+git add index.htm 
+git commit -m "Add javascript and images."
+git push duck2 master
+git remote
+git push bullseye master
+cd Dropbox/code/cold/hahn1/
+ls
+head
+head *
+head | less
+head | less
+ls 
+head ./*
+head ./* | less
+head ./* | less
+head -5 ./* | less
+head -5 ./* | less
+head -5 ./* | less
+head -5 ./* | less
+ls
+less hahn3-40.js 
+pwd
+cd ../commenter/
+ls
+node may2.js 
+cd views/
+ls
+less read-evs-devNotes.txt 
+cd ..
+pwd
+git status
+git remote
+git fetch commenter
+git status
+git status
+git log
+git log -decorate
+git log --decorate
+ls
+ls -lrt
+pwd
+cd ../duck4/
+ls
+node app.js 
+head app.js
+npm install path express body-parser morgan
+head app.js
+node app.js 
+npm install ejs
+ls -lrt
+touch package.json
+ls
+npm install ejs
+ls 
+head package-lock.json 
+cp ../commenter/package.json ./package.json
+ls -lrt
+npm install path express body-parser morgan
+npm install ejs
+node app.js 
+ls
+git add *
+git status
+git reset node_modules/*
+git status
+git commit -m "Add 7 new files from the Commenter project.  These 7 files should roughly serve views, per Evan Hahn page 40.  The plan is to adapt them."
+git remote
+git push bullseye master
+node app.js
+pwd
+cd Dropbox/code/cold/duck4/
+node js/pricing.js 
+pwd
+ls
+node js/pricing.js 
+node js/pricing.js 
+git add js/pricing.js 
+git commit -m "Add a mini server.  It runs in node/terminal.  For some reason, same script, when called from within the html it thinks REQUIRE is an undeclared variable."
+git push bullseye master
+pwd
+ls
+cd js/
+ls
+mv pricing.js main.js
+ls
+node main.js 
+node main.js 
+git status
+git add ../views/*
+git commit -m "First commits of header, index, footer EJS VIEWS.  Their content is not yet the correct content but they deliver a HEAD-INDEX-FOOT okay."
+git remote
+git commit bullseye master
+git push bullseye master
+git status
+git rm ../views/new-entry.ejs
+rm ../views/read-evs-devNotes.txt
+git rm ../views/read-evs-devNotes.txt
+git status
+git rm pricing.js
+git add main.js
+git commit -m "Write a mini server.  Include EJS.  Succesfully serve HEAD-BODY-FOOTER for GET '/'."
+ls -lrt
+git push bullseye master
+ls
+node main.js 
+git status
+git commit main.js ../views/footer.ejs ../views/header.ejs  ../views/body.ejs 
+git add  main.js ../views/footer.ejs ../views/header.ejs  ../views/body.ejs 
+git commit -m "Make the HTML for the three views HEADER + BODY + FOOTER"
+git push bullseye master
+node main.js 
+node main.js 
+pwd
+node main.js 
+cd Dropbox/code/cold
+ls
+cd ..
+ls
+ls colander/
+man tree
+ls -tree
+man ls | grep 'tree'
+pwd
+cd cold/
+ls
+ls hahn2/
+mkdir hahn3
+cd hahn3
+npm init
+ls -lrt
+head package.json 
+git init
+touch app.js
+touch index.html
+ls -lrt
+git add *
+git status
+git commit -m "First commit."
+git push sawdatou master
+git remote add sawdatou https://github.com/atom-box/sawdatou.git
+git push sawdatou master
+git log
+npm install express --save
+npm install morgan --save
+ls -lrt
+git status
+git status >> .gitignore
+nano .gitignore 
+git status
+nano .gitignore 
+git status
+git add *
+git status
+git commit -n "Add Express and Morgan to package.json"
+git commit -m "Add Express and Morgan to package.json"
+nano package.json 
+node randomMoustacheExternal.js 
+ls
+ls js/
+git status
+git commit -m "Update name of main app to randomMoustacheExternal.js"
+git add package.json 
+git commit -m "Update name of main app to randomMoustacheExternal.js"
+git add js/*
+git add randomMoustacheExternal.js 
+git status
+git commit -m "1st Commit."
+git push sawdatou master
+ls -lrt
+node randomMoustacheExternal.js 
+node randomMoustacheExternal.js 
+node randomMoustacheExternal.js 
+node randomMoustacheExternal.js 
+node randomMoustacheExternal.js 
+node randomMoustacheExternal.js 
+git status
+git add *
+git status
+git commit -m "Make RANDY.JS and RANDOMMOUSTACHEEXTERNAL.js work together."
+git push sawdatou master
+ls -lrt
+node randomMoustacheExternal.js 
+node randomMoustacheExternal.js 
+node randomMoustacheExternal.js 
+node randomMoustacheExternal.js 
+git status
+git add randomMoustacheExternal.js 
+git commit -m "Make the output describe random # calories in # number of Cheetos.  Do this by calling your custom remote number generator inside of ${} syntax."
+git commit -m "Make the output describe random # calories in # number of Cheetos.  Do this by calling your custom remote number generator inside of \${} syntax."
+git touch package.json 
+touch package.json 
+ls -lrt
+man touch
+git add package.json 
+git commit -m "Look\!  I figured out how to include \!\!  Just use exclaim with a '\\' to escape the '\!'"
+nano package.json 
+git add package.json 
+git commit -m "Look\!  I figured out how to include \!\!  Just use exclaim with a '\\' to escape the '\!'"
+git log
+git push sawdatou master
+pwd
+cd ../6/
+ls
+ls -lrt
+pwd
+cd ..
+git mvdir 6 6a
+mvdir 6 6a
+mv 6/* 6a/*
+mv 6/* 6a
+mkdir 6a
+mv 6/* 6a
+ls 6
+ls 6a
+pwd
+ls 6a
+ls 6a | wc
+ls 6 | wc
+rmdir 6 
+ls -a 6
+cd 6/
+ls
+ls -a
+mv ./* ../6a/
+ls ../6a/
+mv * ../6a/
+mv * ../6a
+ls *
+ls -a
+mv .* ../6a
+ls -a
+cd ..
+rmdir 6/
+pwd
+cd 6/
+ls
+ls -lrt
+git init
+git remote add comic https://github.com/atom-box/1-A.P.I.-capstone.git
+git status
+head .gitignore 
+ls 
+git status >> .gitignore
+nano .gitignore 
+git status
+ls public/
+git add *
+git status
+git commit -m "Code written by Codecademy. Assignment: capstone 1."
+git remote
+git push comic master
+nano package.json 
+ls 
+npm install
+npm audit
+npm install sqlite3@4.0.0
+npm audit
+npm update debug --depth 9
+npm install mocha@5.2.0
+npm audit
+ls -lrt
+git status
+git add package.json 
+git package-lock.json 
+git add package-lock.json 
+git commit -m "Run npm install.  Update the neccessary node modules."
+git remote
+git push comic master
+history
+ls
+ls node_modules/
+ls node_modules/e*
+ls node_modules/ex*
+ls -lrt node_modules/e*
+history
+ls -lrt package.json 
+npm install express --save
+ls -lrt package.json 
+git status
+git add package.json package-lock.json 
+git commit -m "Add npm express to the package.json."
+npm run
+npm run
+ls
+git rm instructions_X-Press.md 
+ls
+rm instructions_X-Press.md 
+git rm instructions_X-Press.md
+git status
+ls seed.js 
+node seed.js 
+pwd
+tree
+brew install tree
+pwd
+tree
+tree |wc
+pwd
+tree .
+tree | wc
+tree . | wc
+pwd
+ls
+cd public/
+tree | wc
+tree
+tree ./js
+cd ..
+pwd
+ls
+tree ./public
+clear
+ls
+tree ./public/
+tree ./src/
+npm start
+cd ..
+ls
+pwd
+cd 6
+ls
+nano package.json 
+find server.js
+find package
+find package .
+find server  .
+find server  . | wc
+ls -r | grep server
+ls -r | grep package
+ls -R | grep package
+ls -R | grep server.js
+man find
+pwd
+find ./ -name server.js | wc
+find ./ -name server.js -print  | wc
+find ./ -name server.js 
+cal 
+git remote
+pwd
+git status
+git add README.md 
+git commit -m "Thoroughly read through this instruction.  Make a preliminary list of the 4 broad brushstrokes to start with."
+git push comic master
+pwd
+ls
+ls s*
+LS
+node server.js
+git add server.js 
+git commit -m "Opening salvo: make a server that listens on either process.env.PORT OR port 4000, in that order of preference."
+git push comic master
+pwd
+grep -r react
+grep -r react ./*
+grep -r react ./* | wc
+grep -r default ./* | wc
+grep -r reactdom ./* | wc
+grep -r 'zip folder'' ./* | wc
+grep -r 'zip folder' ./* | wc
+grep -r migration.js ./* | wc
+grep -r migration.js ./* 
+git status
+git add README.md 
+git commit -m "Use GREP to confirm: There is no mention of 'migration.js' in the jillions of lines of legacy code for this assignment; it only occurs in the instructions, therefore, 'migration.js' is supposed to be called by your code, most likely by the 'server.js'.  Furthermore, use FIND to confirm that no version of SERVER.JS exists yet, except as mentioned in two places: the instructions/readme, and in the npm, which uses it for NPM START."
+git push comic master
+pwd
+cd Dropbox/code/cold/5/olympics/
+ls
+grep app.run ./*
+grep -R app.run ./*
+grep -R '.run' ./*
+grep -R '.run' ./*
+ls
+pwd
+cd ../../6/
+ls
+node server.js 
+node server.js 
+cd ..
+pwd
+cd 5/olympics/
+grep (error)=>
+grep (error)=> ./*
+grep '(error)=>' ./*
+grep -R '(error)=>' ./*
+grep -R 'error' ./*
+ls
+grep -R 'error' App.js 
+grep  'err' App.js 
+grep  'err' ent.js 
+nano ent.js 
+pwd
+cp ent.js ../../6
+pwd
+grep db.run
+grep db.run ./*
+grep -R db.run ./*
+nano server.js 
+ls
+pwd
+grep -R 'sql.js' ./*
+nano test/test.js 
+cd Dropbox/code/
+ls
+ls -lrt
+cd calendar/
+ls
+cd ../cold/
+ls
+cd 6/
+ls
+ls -lrt
+sublime errorExamples.js 
+sublime3 errorExamples.js 
+pwd
+node errorExamples.js 
+node errorExamples.js 
+node errorExamples.js 
+node errorExamples.js 
+git remote
+git add errorExamples.js 
+git commit -m "Add some print statements to further investigate how ERROR try-catch works in the four scenarios of array-passing in this snippet."
+git push comic master
+node errorExamples.js 
+node errorExamples.js 
+cal
+cal
+node errorExamples.js 
+clear
+node errorExamples.js 
+clear
+node errorExamples.js 
+clear
+node errorExamples.js 
+clear
+node errorExamples.js 
+clear
+node errorExamples.js 
+clear
+node errorExamples.js 
+clear
+node errorExamples.js 
+ls -lrt
+mv errorExamples.js args&try-catchExamples.js
+mv errorExamples.js args+try-catchExamples.js
+ls -lrt
+mv args args_and_try-catch_examples.js 
+ls -lrt
+git status
+git rm errorExamples.js
+git add args_and_try-catch_examples.js 
+git commit -m "Clearly write a comment at top explaining how the passed-in args work."
+git push comic master
+ls -lrt
+node server.js
+node server.js
+clear
+node server.js
+clear
+node server.js
+ls -lrt
+git add migration.js 
+git commit -m "Move parentheses and curly braces to correctly catch errors in CREATEARTIST function in migration.js.  Do this by using error => { } syntax."
+git push comic master
+clear
+node server.js
+git add server.js 
+ git commit -m "For CREATESERIES function, rewrite error-handling using older syntax: function(e){ } replaces incorrect syntax of (e)=>printf e.  Also, actually print out the Error Object, revealing (ta-da\!) a 'TABLE ALREADY EXISTS' error.  (This should be easy to remedy.)"
+git log
+git commit --amend -m "Hey"
+git log
+clear
+git commit --amend -m  "For CREATESERIES function, rewrite error-handling using older syntax: function(e){ } replaces incorrect syntax of (e)=>printf e.  Also, actually print out the Error Object, revealing (ta-da\!) a 'TABLE ALREADY EXISTS' error.  (This should be easy to remedy.)"
+clear
+git log
+ git push comic master
+git pull comic master
+git status
+git push comic master
+cat >> devNotesTempFriday.txt
+ls -lrt
+node server.js 
+node server.js 
+ls -lrt
+git add migration.js
+git commit -m "Add error handling and DROPTABLE if exists to all three CREATE functions. Result is then,all three errors fire and then ALL THREE 'ALL IS WELL' messages fire\!  Could be worse..."
+git push comic master
+cd Dropbox/humbug\ caterpillar/
+ls
+ls-lrt
+ls -lrt
+ls -lrt
+cd Dropbox/code/calendar/6/
+ls -lrt
+pwd
+cd Dropbox/code/calendar/
+cd 6/
+ls
+cd ../colander/6/
+cd ../colander/
+ls
+cd ../cold/6/
+ls
+node server.js 
+node server.js 
+exit
+cd Dropbox/code/cold/6/
+ls
+ls -lrt
+head database.sqlite 
+node server.js 
+node server.js 
+ls -lrt
+rm database.sqlite 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+ls -lrt
+git add server.js migration.js 
+git commit -m "For SERIES table, add a CREATE IF NOT EXISTS language.  This fixes the every-second-time-you-run-it error.  This does not explain why half the time, the CREATE is run before DROP.  It DOES make the DROP consistantly run first but _I'm not sure why._"
+git push comic master
+ls /home/
+ls /home
+ls /
+ /Users/evan/Dropbox/code/tutorials-computers/SQL-notes-codecademy-Week-5.md 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+git status
+git add migration.js server.js 
+git commit -m "Fix the ARTIST & the SERIES same as how you fixed the ISSUE table: ticks-not-quotes, remove FOREIGN KEY for now, and, crucially, add IF NOT EXISTS language to the CREATE TABLE."
+git push comic master
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+git status
+echo database.sqlite
+echo database.sqlite >> .gitignore
+head .gitignore 
+git add README.md
+git commit -m "Add two days of to do's and did-its."
+git add migration.js 
+git commit -m "Refactor Drop-table and create table: instead of CREATE TABLE IF NOT EXISTS do the more versatile modern sapien thing -- use db.serialize(() = > {})"
+git push comic master
+cd Dropbox/code/cold/6/
+ls
+find -name utilit .
+pwd
+ls -lrt 
+npm start
+npm start
+git status
+git add package.json package-lock.json 
+git commit -m "Morgan now in NPM."
+git add server.js 
+git commit -m "In first route, /api/artists, make a dummy array, stringify it, set status 200, and return the string."
+git push comic master
+man tree | exclude
+man tree | grep exclude
+tree --filelimit 20
+ls
+ls src/utils/
+less src/utils/XPress.js 
+npm start
+npm start
+tree --filelimit 20
+npm start
+npm start >> errLog.txt
+cp The windfall UTILs in src/XPress are not runnable -- 
+cp /Users/evan/.npm/_logs/2018-06-06T10_38_20_937Z-debug.log errLog.txt
+ls -lrt
+head errLog.txt 
+tail errLog.txt 
+tree --filelimit 20
+pwd
+mkdir tools
+cp src/utils/XPress.js ./tools/
+ls tools/
+mkdir work
+mv tools/XPress.js work/tools.js
+rmdir tools/
+tree --filelimit 20
+npm start
+npm start
+npm start
+git status
+git add work/tools.js 
+git commit -m "Copied wholecloth from CodeAcad's UTILS/XPRESS.JS. Not sure if I was supposed to even see these.  They are so different than my environment that adapting them will be half as much work as writing them from scratch.   I feel this is legit.  Still will be pretty tough; anticipating 20 hours from this point."
+git add server.js 
+git commit -m "Make this able to import ./WORK/TOOLS.JS"
+git push comic master
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+git add server.js 
+git commit -m "Connect 'getArtists' to the object method HELPER.GETARTISTS in TOOLS.JS"
+git push comic master
+git push comic master
+npm start
+npm start
+ls
+git add work/tools.js 
+git commit -m "Change db.run to DB.ALL and make the function return ROWS."
+git push comic master
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+express --help
+node express --help
+npm install express-generator -g
+node express --help
+express -h
+express --version
+npm start
+ls
+ls notes+examples/IIFE.js 
+node notes+examples/IIFE.js 
+git add notes+examples/IIFE.js 
+git commit -m "Tiny IIFE example.  Syntax works."
+cd Dropbox/code/cold/6/
+ls
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+ls seed.js 
+ls seed.js 
+node seed.js 
+ls
+ls -lrt
+git add seed.js 
+git commit -m "Wrap the entire SEED.JS in a db.serialize.  Then wrap it further in a callable function named ADDKIRBYANDLEE.JS"
+git push comic master
+npm start
+npm start
+npm start
+npm start
+less /Users/evan/.npm/_logs/2018-06-08T01_07_58_527Z-debug.log
+less /Users/evan/.npm/_logs/2018-06-08T01_07_58_527Z-debug.log
+npm start
+npm start
+npm start
+git ls -lrt
+ls -lrt
+git status
+git add seed.js server.js 
+git commit -m "Nest the three TABLE-CREATES in a giant I.I.F.E..  This may allow some control over their asynchronousness.
+"
+git push comic master
+cd ../../..
+ls
+cd code/tutorials-computers
+git add SQL-notes-codecademy-Week-5.md 
+git commit -m "Add asynchrony examples, notes, incl GULP and NEXT."
+git push notes master
+cal
+ls -lrt
+cd Dropbox/code/cold/6
+ls -lrt
+git log
+ls -lrt
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+git reset HEAD server.js 
+ls -lrt
+git reset HEAD --hard server.js 
+git reset HEAD --hard 
+ls -lrt s*
+node server.js 
+history
+node server.js
+node server.js
+node server.js
+node server.js
+node server.js
+node server.js
+node server.js
+ls -lrt
+npm start
+ls migration.js 
+node migration.js
+node migration.js
+node migration.js
+node migration.js
+npm start
+npm start
+npm start
+npm start
+git server
+ls -lrt
+git status
+git add work/routes.js 
+git commit -m "Put routes in a separate file called ROUTES.JS.  FYI: I think the teachers would have called this /api/api.js in THEIR folder convention."
+git push comic master
+git push comic master
+git status
+git add errLog.txt 
+git commit -m "Save long-form error output in this file.  Temporary. For debugging."
+git add migration.js server.js work/tools.js 
+git commit -m "Refactor the imported set up functions to come in as a single object with multiple methods: setUp.createArtist, et al."
+git push comic master
+git status
+git status >> .gitignore 
+nano .giti
+nano .gitignore 
+nano .gitignore 
+git status
+ls -lrt
+ls notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+git add notes+examples/chainableMiddlewareSnippet.js 
+git status
+git commit -m "Don't put CHAIN or NEXT in this snippet.  Just make this snippet use proper syntax to use DATE and RES.WRITE(x)."
+git status
+git add notes+examples/chainableMiddlewareSnippet.js 
+git add -f notes+examples/chainableMiddlewareSnippet.js 
+git commit -m "Don't put CHAIN or NEXT in this snippet.  Just make this snippet use proper syntax to use DATE and RES.WRITE(x)."
+git status
+git add -f notes+examples/chainableMiddlewareSnippet.js 
+git commit -a -m "Don't put CHAIN or NEXT in this snippet.  Just make this snippet use proper syntax to use DATE and RES.WRITE(x)."
+git status
+git push comic master
+git status
+hhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhg
+lear
+clear
+pwd
+ls
+ls -lrt
+ls
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+node notes+examples/chainableMiddlewareSnippet.js 
+ls -lrt
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+cd ../../..
+pwd
+cd code/tutorials-computers/
+git add SQL-notes-codecademy-Week-5.md 
+git commit -m "Review all 11 days of Part6 in Codecademy.  Add the SQLITE3 subtlties to class notes."
+git push comic master
+git push notes master
+pwd
+ls /
+ls /Users/
+ls /Users/Shared/
+ls /Users/evan
+pwd
+cd /Users/evan/Downloads/
+ls
+cd capstSOLVD\ one-project-1-x-press-publishing/
+ls
+grep 'migration' .
+grep 'migration' ./*
+grep -r 'migration' ./*
+grep -r 'migration' ./* |wc
+grep -r 'migration' ./* | less
+cal
+fortune
+pwd
+cd ../../Dropbox/code/cold/6/
+ls
+ls -lrt
+git add migration.js 
+git commit -m "Restore point: migration.js works as a trio of exportable functions.  But instructions of the project didn't point out that's not what they want. Now I'm about to refactor it to a standalone DB call that will leave persist by leaving the db.sqlite file altered."
+ls -lrt
+git add migration.js
+git commit -m "Refactor migration.js. Instead of exporting a trio of js functions, just persist by manipulating the database.  Do this by creating a db.sqlite object and saving the three created tables to it."
+git push comic master
+git add server.js 
+git commit -m "Restore point before refactor to remove table create function calls (3x)."
+history
+grep -r 'seed' ./
+grep -r 'seed' ./ | wc
+grep -r 'seed.js' ./ | wc
+grep -r 'seed.js' ./ | more
+grep -r 'seed.js' ./ | less
+grep -r 'seed.js' ./ | more
+ls -lrt
+node seed.js 
+node server.js
+node server.js
+node server.js
+git status
+git add migration.js 
+git commit -m "Add IF NOT EXISTS to any of the create table statements that are missing it."
+git add seed.js 
+git commit -m "Make seed.js compliant with their poor instructions, i.e. make it not called by you."
+git status
+git add server.js 
+git commit -m "Remove any references to calling SEED.JS or MIGRATION.JS."
+git push comic master
+npm start
+npm start
+ls
+pwd
+ls work/
+npm start
+npm start
+npm start
+npm start
+ls -lrt
+node migration.js 
+ls work/routes.js 
+node work/routes.js 
+node server.js 
+node
+node server.js 
+git add server.js 
+git commit -m "Add debugging print statement to get TYPE on route call api.".
+git push comic master
+ls -lrt
+node server.js 
+node server.js 
+git add server.js work/routes.js 
+git commit -m "Fix the broken ROUTES function: In the sub-file, add MODULE.EXPORTS at the end; then use it to export the server object that EXPRESS made.  Then in your main program, SERVER.JS, invoke it as var x = require(the directory) and then app.use('/', x)"
+git push comic master
+git push comic master
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+npm start
+npm start
+npm start
+git add work/routes.js 
+git commit -m "Stub in the get-all-artists-who-are-working route. Do it with a variable for the base-URL. "
+git push comic master
+npm start
+npm start
+ls -lrt
+node migration
+node seed.js 
+node server.js 
+npm start
+ls -lrt
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+git add work/routes.js 
+git commit -m 'Shorten the route name once you arrive inside the router.  Why? Because you already took off the stub from the front of the URL..  Wrong: "/api" Right: "/" '
+git push comic master
+git push comic master
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+ls -lrt
+git status
+git add work/tools.js 
+git commit -m "Stop developing in this file.  This file is now a cannibalizable junk yard of function templates."
+git push comic master
+git add work/routes.js server.js 
+git commit -m "Add route outcomes for user entering following URLs: '/', '(garbage)', '/api/artists'."
+git push comic master
+npm start
+ls 
+less package.json 
+npm start
+npm start
+git add work/routes.js 
+git commit -m "JSON-ify the returned request object on GET THE WORKING ARTISTS.  Add error handling line."
+git push comic master
+git push comic master
+ls -lrt
+head database.sqlite 
+less database.sqlite 
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+npm start
+cd Dropbox/code/cold/6/
+ls
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+node server.js 
+git status
+git add work/routes.js 
+git commit -m "Make the response object turn the db hits as JSON, by saying req.json('artists', artists) AND THEN move it two lines higher, so it is inside of the DB.EACH loop block."
+git push comic master
+pwd
+cd Dropbox/code/pythonSweigart/
+ls
+ls -lrt
+git remote
+git remote
+ls -lrt
+git pull fiddle master
+ls -lrt
+cp commaBreaker.sh flowBaby.sh
+git add flowBaby.sh 
+git commit -m "Work out how to accept an arg and have it summon a file the user requested, spraying it all over the place as STDOUT."
+git push fiddle master
+nano flowBaby.sh 
+nano flowBaby.sh 
+ls
+mv flow_chap2_p51.py chap2_p51FLOW.py
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+cat  protoHisto.py 
+nano flowBaby.sh 
+cat  protoHisto.py 
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+ls -lrt
+git commit flowBaby.sh 
+git push fiddle master
+nano flowBaby.sh 
+./flowBaby.sh protoHisto.py 
+./flowBaby.sh macBeth.txt 
+git commit flowBaby.sh 
+ls -lrt
+tail flowBaby.sh 
+nano commaBreaker.sh 
+./commaBreaker.sh preJobsFilter.html 
+./commaBreaker.sh macBeth.txt 
+nano commaBreaker.sh 
+sed tr /aeiou/-----/ macBeth.txt 
+tr /aeiou/-----/ macBeth.txt 
+tr '/aeiou/-----/' macBeth.txt 
+man tr
+tr "aeiou" "-----" < macBeth.txt 
+tr "aeiou" "-" < macBeth.txt 
+man tr
+tr "[:punct:]" "\n" < macBeth.txt 
+man cat
+man tail
+tail macBeth.txt 
+tail -n 100 macBeth.txt 
+tail -n 100 macBeth.txt | wc
+tail macBeth.txt | wc
+tail -n 150 macBeth.txt | head 
+tail -n 150 macBeth.txt | head -n 22 
+tail -n 150 macBeth.txt | head -n 12 
+tail -n 150 macBeth.txt | head -n 12 | tr "[:punct:]" "\n"  
+clear
+tail -n 150 macBeth.txt | head -n 12 
+tail -n 150 macBeth.txt | head -n 12 | tr "[:punct:]" "\n"  
+clear
+tail -n 150 macBeth.txt | head -n 12 | tr "[:punct:]" "\n"  
+tail -n 150 macBeth.txt | head -n 12 
+tail -n 150 macBeth.txt | head -n 5 
+tail -n 150 macBeth.txt | head -n 5 | tr "[:punct:]" "\n"  
+clear
+tail -n 150 macBeth.txt | head -n 5 
+tail -n 150 macBeth.txt | head -n 5 | tr "[:punct:]" "\n"  
+clear
+tail -n 150 macBeth.txt | head -n 5 
+tail -n 150 macBeth.txt | head -n 5 | tr "[:punct:]" "\n"  
+ls -lrt
+nano commaBreaker.sh 
+cp commaBreaker.sh punctBreaker.sh
+nano commaBreaker.sh 
+ls -lrt
+./commaBreaker.sh macBeth.txt 
+./commaBreaker.sh macBeth.txt | tail -c 300 | head -c 12 
+./commaBreaker.sh macBeth.txt | tail -c 100 | head -c 12 
+./commaBreaker.sh macBeth.txt | tail -c 100 | head  
+./commaBreaker.sh macBeth.txt | tail  | head  
+./commaBreaker.sh macBeth.txt | tail   
+./commaBreaker.sh macBeth.txt | head
+./commaBreaker.sh macBeth.txt | head -120
+nano commaBreaker.sh 
+./commaBreaker.sh macBeth.txt | head -120
+nano commaBreaker.sh 
+./commaBreaker.sh macBeth.txt | head -120
+ls ../..
+ls ../data/
+ls ../data/winterstale_folio.txt 
+./commaBreaker.sh ../data/winterstale_folio.txt 
+./commaBreaker.sh ../data/winterstale_folio.txt | grep bear 
+./commaBreaker.sh ../data/winterstale_folio.txt | grep ' bear ' 
+./commaBreaker.sh ../data/winterstale_quarto.txt | grep ' bear ' 
+./commaBreaker.sh ../data/winterstale_quarto.txt | grep exit 
+./commaBreaker.sh ../data/winterstale_folio.txt | grep exit 
+./commaBreaker.sh ../data/winterstale_folio.txt | grep exit | sed 's/.*editorial.*//g'
+./commaBreaker.sh ../data/winterstale_quarto.txt | grep exit | sed 's/.*editorial.*//g'
+cat ../data/winterstale_quarto.txt | grep exit | sed 's/.*editorial.*//g'
+cat ../data/winterstale_folio.txt | grep exit | sed 's/.*editorial.*//g'
+clear
+cat ../data/winterstale_quarto.txt | grep exit | sed 's/.*editorial.*//g'
+ls -lrt
+nano commaBreaker.sh 
+nano commaBreaker.sh 
+git log
+git status
+git add commaBreaker.sh 
+git commit -m "Set this script to accept the first commandline arg after name, ARG[1] and remove commas, colons, and semi-colons, and put in newlines."
+pwd
+cd ../cold/6/notes+examples/
+ls
+node logger-homemade.js 
+node logger-homemade.js 
+node logger-homemade.js 
+git add logger-homemade.js 
+git add -f logger-homemade.js 
+git commit -m "From memory, write a two route server, with  REQ.WRITE REQ.END as a method."
+git push comic master
+node logger-homemade.js 
+node logger-homemade.js 
+node logger-homemade.js 
+node logger-homemade.js 
+node logger-homemade.js 
+git log
+node logger-homemade.js 
+node logger-homemade.js 
+node logger-homemade.js 
+git add logger-homemade.js 
+git commit -m "Make a function, LOOGOO that returns as a string several req objects, incl URL, DOMAIN, PARAMS."
+git push comic master
+git commit -m "Make a function, LOOGOO that returns as a string several req objects, incl URL, DOMAIN, PARAMS."
+bc
+pwd
+cd ../../..
+ls
+cd pythonSweigart/
+ls
+ls -lrt
+nano commaBreaker.sh 
+pwd
+cd ../data/
+ls -lrt
+cd text\ Exodus/
+ls
+pwd
+ls ../../pythonSweigart/
+ls ../../pythonSweigart/commaBreaker.sh 
+../../pythonSweigart/commaBreaker.sh 2Kings-KJV.txt > KJV-Kings-breaks.txt
+ls -lrt
+head KJV-Kings-breaks.txt 
+cd ../../pythonSweigart/
+ls
+nano commaBreaker.sh 
+head data
+head data.txt 
+./commaBreaker.sh data.txt 
+nano commaBreaker.sh 
+./commaBreaker.sh data.txt 
+cp commaBreaker.sh sedComma.sh
+git remote
+git add sedComma.sh 
+git commit -m "Make the script use SED instead of TR, because I know I can capture and print out the symbols, repeat the punctuation marks, not just replace them with line breaks."
+git push fiddle master
+sed 's/[.,:;!?]/oo/g' data.txt 
+sed 's/\([.,:;!?]\)/oo/g' data.txt 
+sed 's/\([.,:;!?]\)/oo\1oo/g' data.txt 
+ls -lrt
+nano sedComma.sh 
+./sedComma.sh data.txt 
+nano sedComma.sh 
+./sedComma.sh data.txt 
+nano sedComma.sh 
+./sedComma.sh data.txt 
+nano sedComma.sh 
+./sedComma.sh data.txt 
+git add sedComma.sh 
+git commit -m "Add a  line of SED that turns PUNCT-MARKS into PIPESYMBOL. Then, on same line (using pipe, ironically) feed the result to a TR tool, that replaces all pipe symbols with newlines.   A definite hack but great ten minute solution without having to look anywhere for help online.  Output looks awesome.".  
+git push fiddle master
+pwd
+cp sedComma.sh ../data/
+cd ../data/
+ls
+cd text\ Exodus/
+ls
+../sedComma.sh 2Kings\ Douay-Rheims\ Bible  > 2KDRshortlines.txt
+../sedComma.sh 2Kings-KJV.txt > 2KJVKingShort.txt
+../sedComma.sh 2Kings.LitNetwork.txt  > 2LitKingShort.txt
+head * 
+ls
+head 2Kings*
+ls -lrt
+head 2KJVKingShort.txt 
+head 2LitKingShort.txt 
+cat 2LitKingShort.txt 
+ls -lrt
+less 2KJVKingShort.txt 
+tail -100 *
+clear
+pwd
+cd ..
+pwd
+cd ../cold/6/
+ls
+ls -lrt
+node server.js
+ls work/routes.js 
+node work/routes.js 
+node work/routes.js 
+node work/routes.js 
+ls -lrt
+git add work/routes.js 
+git commit -m "Stub out the route grabbers, with no SQL, and no logic, no error handling.  In fact, don't have time yet to make the stubs run.  Do that next.
+"
+git push comic master
+cal -2030| tr "\n" ""  
+cal -2030| tr "\n" "4"  
+cal 2030| tr "\n" "4"  
+cal 2030| tr "\n" ""  
+cal 2030| tr "\n" "ppp"  
+cal 2030| sed "s/\n/000/g"  
+cal 2030| tr "\n" "=" | sed "s/=//g"  
+ tr "\n" "=" $1 | sed "s/=//g"  
+pwd
+cd Dropbox/code/
+ls
+ls -lrt
+cd pythonSweigart/
+cd ../cold/6
+ls
+ls -lrt
+cd work/
+ls
+ls -lrt
+node routes.js 
+node routes.js 
+node routes.js 
+node routes.js 
+git status
+pwd
+git add routes.js 
+git commit -m "Append assignment instructions to end.  Cleanly comment out those instructions."
+git push comic master
+man sed
+man tr
+pwd
+cd ../../..
+ls
+ls -lrt
+cd pythonSweigart/
+ls
+ls -lrt
+chmod +x newlineSquasher.sh 
+ls -lrt
+./newlineSquasher.sh data.txt 
+cat data.txt 
+./newlineSquasher.sh data.txt 
+cat data.txt 
+./newlineSquasher.sh data.txt 
+pwd
+git add newlineSquasher.sh 
+git commit -m "In four lines, make the BASH script remove blank lines, remove newlines, and then break newlines wherever the original text had punctuation marks like commas or exclamation points."
+git push fiddle master
+git push comic master
+pwd
+cd Dropbox/code/cold/6/
+ls
+cd notes+examples/
+ls
+node try-param-try-routeparameterscapturing.js 
+node try-param-try-routeparameterscapturing.js 
+node try-param-try-routeparameterscapturing.js 
+node try-param-try-routeparameterscapturing.js 
+node try-param-try-routeparameterscapturing.js 
+node try-param-try-routeparameterscapturing.js 
+ls /
+ls Applications/
+ls -r  / 
+ls -R  / 
+ls -R  / | grep 'BC4Key'
+ls -R  /Users/evan/ | grep 'BC4Key'
+find /Users/evan/ -name BC4Key
+find /Users/evan/ -name BC4Key.txt 
+head /Users/evan/Library/Application\ Support/Beyond\ Compare/BC4Key.txt 
+ls -lrt
+cd /Users/evan/Dropbox/code/cold/6/
+ls
+cd notes+examples/
+ls -lrt
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+git add julyExprAndNodeSnippets.js 
+git commit -m "Try out the JSON.parse(x) method.  It seems to be built-in to javascript."
+git push comic master
+git push comic master
+ls -lrt
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+git add julyExprAndNodeSnippets.js 
+git commit -m "Add error checker before JSONifying (checks if the string being JSONified is empty)."
+git push comic master
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node
+cd Dropbox/code/cold/6/
+ls
+cd notes+examples/
+ls
+ls -lrt
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+ls
+ls -rt
+git add julyExprAndNodeSnippets.js 
+git commit -m "Do a server REQUIRE HTTP, and LISTEN, and send a response, in node.js, without Express.js.  Make it say 'oogity boogity' in the monitor."
+git push comic master
+node julyExprAndNodeSnippets.js 
+git log
+git add julyExprAndNodeSnippets.js 
+git commit -m "Serve up a few lines of HTML that create a form, with buttons."
+git push comic master
+fortune
+cal
+ls -lrt
+node julyExprAndNodeSnippets.js 
+git add julyExprAndNodeSnippets.js 
+git commit -m "Add a couple of req.on('data' and req.on('end' statements.  This makes button-pressing fill up variables up in the javascript event listener."
+git push comic master
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+node julyExprAndNodeSnippets.js 
+cd Dropbox/code/cold/mcFarland-Missing/
+ls
+npm -v
+npm --save jquery
+npm install jquery --save
+git remote
+ls -lrt
+git add pack*
+git commit -m "Install jQuery using npm."
+git push missing master
+git status
+git status > .gitignore
+nano .git
+nano .gitignore 
+git status
+nano .gitignore 
+git status >> .gitignore 
+nano .gitignore 
+git status
+git add faq.html 
+git commit -m "Trivial spacing changes."
+git status
+git branch comparify
+git checkout comparify
+git push missing comparify
+git branch
+git status
+git status
+git add faq.html
+git commit -m "Change all content to Beyond Compare content."
+git push missing comparify
+git checkout main
+git branch
+git checkout master
+git branch jq
+git branch
+git checkout jq
+head faq.html 
+git status
+git add site.css
+git commit -m "Modify the textbook's CSS to match scootersoftware.com Beyond Compare color scheme.  Use the Mac-color-picker to find that Scooter-red is 150, 9, 0."
+git add faq.html
+git branch
+git commit -m "Working on the jq branch.  Bring in a css file from the textbook."
+git push missing master
+git push missing jq
+git checkout master
+git add faq.html 
+git commit -m "Add a line of jQuery: 'hide', after the DOCUMENT.READY().  Notice that it does nothing because your jQuery npm is not present, having been installed on the COMPARIFY BRANCH."
+git push missing jq
+git push missing jq
+git branch
+git checkout master
+git mergetool jq
+git branch
+git status
+git merge jq
+ls -lrt
+git difftool comparify
+git config --global merge.tool bc3
+git config --global mergetool.bc3.trustExitCode true
+git config --global diff.tool bc3 
+git difftool comparify
+cd Dropbox/code/notes\ ancillary\ to\ 2017\ learning/
+ls
+cd ..
+ls
+cd tutorials-computers/
+git remote
+git status
+ls -lrt
+rm unix-rednotebk.md 
+git add linux-rednotebk.md Git-rednotebook.md NPM\ red\ notebk.md 
+git commit -m "Start transcribing red notebook notes to this file."
+git push notes master
+pwd
+cd ../cold/
+ls
+cd mcFarland-Missing/
+ls
+ls -lrt
+ls node_modules/
+ls node_modules/jquery/
+ls -lrt
+git add faq.html 
+git commit -m "Fix the broken jQuery: npm install alone is the wrong way to get jq.  Remove that.  Put a conventional script to download jq from their site.   Also, move the LOAD READY script at the end of the html file."
+git push missing master
+git branch
+git merge jq
+git difftool master jq
+git fetch
+git remote
+git fetch missing
+git branch -va
+clear
+git branch -va
+git branch
+git merge comparify
+git log
+git status
+git commit -m "Merged in NEW TEXT CONTENT from the branch COMPARIFY."
+git status
+git remote
+git push missing master
+ls -lrt
+git branch
+ls -lrt
+ls -lrt
+git add faq.html 
+git commit -m "Move JS script to top of the html to see if that helps. It doesn't.  Problem: jQuery is closing the ANSWERS but subsequent jQuery toggle is not opening the answers."
+git branch fix-toggle
+git checkout fix-toggle
+git remote
+git push missing fix-toggle
+cat > bugfixscratchpad.txt
+ls -lrt
+head bugfixscratchpad.txt 
+cd Dropbox/code/cold/
+ls
+cd mcFarland-Missing/
+git add faq.html 
+git commit -m "Add a class to h1 to prove you can: $('h1').addClass('highlighted'); "
+git commit -m "Add a class to h1 to prove you can: $(h1).addClass(highlighted); "
+git add site.css 
+git commit -m "Comment out, and move to line 500: @fonts from fontsquirrel."
+git push missing fix-toggle
+git branch main
+git merge fix-toggle -m "Change the toggle for answer-show-answer-hide to just answer-show."
+git merge fix-toggle
+git branch
+git branch main
+git checkout main
+git merge fix-toggle -m "Change the toggle for answer-show-answer-hide to just answer-show."
+git branch
+git checkout master
+git merge fix-toggle -m "Change the toggle for answer-show-answer-hide to just answer-show."
+git branch
+git branch -d main
+git branch
+git branch -d fix-toggle
+git branch
+git push missing master
+git commit faq.html 
+git add faq.html 
+git commit -m "Make multi function bind work for click and mouseover. For just the #echo tag.
+"
+git push missing master
+git add faq.html 
+git commit -m "Restore point.  Clicking answer succesfully will console-log.  Clicking h2-level-question will succesfully HIDE the answer."
+git push missing master
+cal
+sqlite
+sqlite3
+pwd
+cd ../6
+ls
+cd work/
+ls
+ls -lrt
+git add routes.js 
+git commit -m "Remove the instructions from the bottom. "
+echo "Map their walk.""
+"
+echo wheretocamp
+nano packingList.txt
+less packingList.txt 
+ls 
+rm packingList.txt 
+pwd
+ls
+cd ..
+ls
+ls -lrt
+git add README.md 
+git commit -m "Add notes, add TODO items to readme instructions."  
+git branch
+git push comic artistsobjects
+ls -lrt
+git branch
+ls -lrt
+ls -lrt
+ls -lrt work
+pwd
+git status
+git add README.md 
+git commit -m "Updated TODO list on readme.md"
+git add work/routes.js 
+git commit -m "Add specific syntax of req.body coming in and res.body going out: for the first four routes."
+git branch
+git push comic artistsobjects
+git checkout master
+git branch
+git merge artistsobjects
+git status
+ls -lrt work/routes.js 
+git push comic master
+git status
+git add work/routes.js 
+git commit -m "Add two more route req + res syntaxes."
+git push comic master
+git status
+git add work/routes.js 
+git commit -m "Write just the REQ and RES syntax for the middle three routes."
+git push comic master
+pwd
+cd work/
+ls
+head *
+cal
+head *
+less tools.js 
+wc tools.js 
+cd ..
+ls
+cd notes+examples/
+ls
+head * | less
+head IIFE.js 
+nano festivalIIFE.js
+cal
+node festivalIIFE.js 
+nano festivalIIFE.js
+node festivalIIFE.js 
+nano festivalIIFE.js
+cal
+node festivalIIFE.js 
+nano festivalIIFE.js
+nano festivalIIFE.js
+node festivalIIFE.js 
+nano festivalIIFE.js
+nano festivalIIFE.js
+clear
+node festivalIIFE.js 
+nano festivalIIFE.js
+clear
+node festivalIIFE.js 
+ls -lrt
+git add festivalIIFE.js 
+git add -f festivalIIFE.js 
+git commit -m "Make an IIFE as a morning warm up your parentheses-closing in monochrome nano"
+git push comic master
+ls
+cd ..
+ls
+node seed.js 
+node notes+examples/festivalIIFE.js 
+ls -lrt
+git status
+git add README.md work/routes.js 
+git commit -m "Minor changes.  Added REQ.BODY type stuff to three more routes."
+git branch
+git push comic master
+cd ../../..
+pwd
+ls
+cd code/tutorials-computers/
+ls e*
+ls
+git add Express-solution-ComicXPress-codecademy.pdf 
+git commit -m "Make a pdf of the solution javascript for the codecademy Build Your Own APIs course capstone. Intention: mark it up as a reference for the real API I will build in September for my portfolio."
+git push notes master
+cal
+ls -lrt
+pwd
+history | grep tree
+nano slight.txt
+pwd
+cd ..
+ls
+mkdir THAT
+cd THAT/
+ls
+git init
+git remote brandon https://github.com/atom-box/brandon.git
+git remote add brandon https://github.com/atom-box/brandon.git
+mkdir src docs config
+ls
+git push brandon master
+git remote
+touch a b c
+ls
+git add a b c
+git commit -m "Test commit"
+git push brandon master
+ls
+git rm b c
+git status
+git commit -m 'Removed test files.'
+git push brandon master
+npm init
+npm -y init
+ls
+npm add npm
+nano package.json 
+ls
+cd config/
+nano buildConfig.js
+sudo apt-get install  -g gulp-cli
+brew -h
+brew install gulp
+npm install node-sass
+cd ..
+git add package.json 
+git commit -m "Update package.json."
+npm install autoprefixer
+npm install eslint eslint-config-defaults eslint-plugin-json eslint-plugin-react
+npm install babel-cli babel-core babel-eslint babel-loader babel-plugin-transform-object-rest-spread babel-preset-env babel-preset-react
+npm install expose-loader imports-loader uglifyjs-webpack-plugin webpack webpack-merge webpack-stream
+npm install gulp gulp-cache-buster gulp-clean gulp-concat gulp-eslint gulp-hasher gulp-plumber gulp-postcss gulp-rename gulp-sass gulp-sourcemaps gulp-babel gulp-live-server gulp-watch gulp-stats gulp-preprocess pump run-sequence copy-node-modules
+ls
+less package.json 
+nano package.json 
+npm install react react-dom react-helmet react-router-dom history
+npm install  redux react-redux react-router-redux@next immutability-helper redux-thunk jquery popper bootstrap reactstrap normalize.css lodash 
+nano package.json 
+npm install  redux react-redux react-router-redux@next immutability-helper redux-thunk jquery popper bootstrap reactstrap normalize.css lodash 
+nano package.json 
+npm install  redux react-redux react-router-redux@next immutability-helper redux-thunk jquery popper bootstrap reactstrap normalize.css lodash 
+nano package.json 
+npm install  redux react-redux react-router-redux@next immutability-helper redux-thunk jquery popper bootstrap reactstrap normalize.css lodash 
+npm install express body-parser
+npm install react-dom react-helmet react-router-dom history  redux react-redux react-router-redux@next immutability-helper redux-thunk 
+npm install jquery popper bootstrap reactstrap normalize.css lodash
+nano package.json 
+ls
+cd src
+mkdir api
+cd api
+touch app.js
+ls
+mkdir -p src/api/controllers && touch src/api/controllers/ProductsController.js
+mkdir -p src/api/routes && touch src/api/routes/ProductRoutes.js
+mkdir -p src/api/models && touch src/api/models/Product.js
+ls 
+ls ..
+ls ..
+ls ../..
+tree *
+mkdir -p src/web/html && touch src/web/html/index.html
+mkdir -p src/web/styles && touch src/web/styles/app.scss
+mkdir -p src/web/scripts && touch src/web/scripts/app.jsx
+mkdir -p src/web/scripts/components/products && touch src/web/scripts/components/products/index.jsx
+mkdir -p src/web/scripts/containers && touch src/web/scripts/containers/products.js
+mkdir -p src/web/scripts/actions && touch src/web/scripts/actions/products.js
+mkdir -p src/web/scripts/reducers && touch src/web/scripts/reducers/products.js && touch src/web/scripts/reducers/index.js
+mkdir -p src/web/scripts/enums && touch src/web/scripts/enums/products.js && touch src/web/scripts/enums/index.js
+mkdir -p src/web/scripts/routing && touch src/web/scripts/routing/products.js && touch src/web/scripts/routing/index.js
+mkdir -p src/web/images
+mkdir -p src/web/fonts
+mkdir -p src/web/root && touch src/web/root/robots.txt && touch src/web/root/web.config
+tree *
+touch Gulpfile.js
+pwd
+cd ../..
+pwd
+tree *
+ls
+touch webpack.js
+ls
+rm webpack.js 
+cd ..
+pwd
+That2Temp
+pwd
+ls
+pwd
+ls t
+ls t*
+cd THAT/
+git remote
+mkdir T2
+cd T2
+ls
+git init
+git clone brandonmartinez/tc-modern-javascript-toolbox
+git clone https://github.com/brandonmartinez/tc-modern-javascript-toolbox
+pwd
+git status
+ls
+pwd
+cd ..
+ls
+git remote
+git status
+git add Gulpfile.js README.md
+git add config
+git add src/*
+git status
+git commit -m "Workshop-reloaded from Justin's repo during break."
+git push brandon master
+tree 
+git status
+ls 
+pwd
+ls
+./buildBrandon.sh
+chmod buildBrandon.sh +x
+chmod +x buildBrandon.sh 
+./buildBrandon.sh
+ls
+./buildBrandon.sh
+ls
+git status
+ls
+git add buildBrandon.sh 
+git commit -m "Write my own script to add all of Brandon's file tree's.  Found this neccessary after I goofed pasting them one by one while listening to him present."
+ls
+less Gulpfile.js 
+bash buildBrandon.sh 
+ls -lrt
+git status
+git add buildBrandon.sh package.json 
+git commit -m 'Fix minor typos.'
+git add src/*
+ls 
+git add Gulpfile.js config/*
+git commit -m "Catching up to what the speaker presented."
+git push brandon master
+git push brandon master
+nano Gulpfile.js 
+history | grep tree
+tree --filelimit 20
+touch .babelrc && touch .eslintrc
+ls -a -lrt
+head .
+wc .babelrc 
+wc .
+ls .
+cd Dropbox/code/THAT2
+ls -lrt
+cd elm-architecture-tutorial/
+git remote
+elm-repl
+ls
+ls examples/
+elm-make examples/01-button.elm 
+ls -lrt
+ls
+git add first/01-button.elm 
+git commit -m "First commit of first-ever Elm attempt."
+git push elm master
+cd /Library/Application\ Support/
+ls
+ls -a
+cd /Users/evan/Library/Application\ Support/Sublime\ Text\ 3/
+ls
+cd Packages/
+git clone https://github.com/elm-community/SublimeElmLanguageSupport.git 'Elm Language Support'
+pwd
+git branch reset-feature
+git branch add reset
+git branch 
+cd /Users/evan/Dropbox/code/THAT2/elm-architecture-tutorial/
+ls
+cd first/
+ls
+git branch reset
+git checkout reset
+ls
+elm-make 01-button.elm 
+ls
+elm-make 01-button.elm 
+git add 01-button.elm 
+git commit -m "Change initial counter number to '66'."
+git push elm reset
+elm-make 01-button.elm 
+elm-make 01-button.elm 
+git commit -m "Remove incr button. Remove initial counter. Remove decr button.  Add a reset button."
+git add 01-button.elm 
+git commit -m "Remove incr button. Remove initial counter. Remove decr button.  Add a reset button."
+git push elm reset
+git checkout master
+git branch
+elm-make 01-button.elm 
+elm-make 01-button.elm 
+elm-make 01-button.elm 
+elm-make 01-button.elm 
+elm-make 01-button.elm 
+elm-make 01-button.elm 
+elm-make 01-button.elm 
+git add 01-button.elm 
+git commit -m "Make a tripler button.  And merely wish you could make a clear button."
+git push elm master
+git push elm master
+elm-make 01-button.elm 
+git add 01-button.elm 
+git commit -m "Add some basic comments."
+git push elm master
+git push elm master
+elm-make 01-button.elm 
+elm-make 01-button.elm 
+git add 01-button.elm 
+git commit -m "Add a fourth element, a second displayed number.  This is my first success at increasing the number of html elements.  The code just goes at the bottom, down in VIEW."
+git push elm master
+elm-make 01-button.elm 
+git add 01-button.elm 
+git commit -m "Add a fifth element: slap on a HELLO WORLD (via https://github.com/izdi/elm-cheat-sheet#numbers  @PandaDoc | ✈️ 🗺
+
+"
+git push elm master
+cd Dropbox/code/THAT2/
+ls
+cd BeginningElmExercises/
+ls
+git status
+ls -lr
+ls -lrt
+mv index.html madeIndexElmOld.html
+elm make simplePage.elm --output elm.js
+node elm.js
+diff elm.js madeIndexElmOld.html 
+git add index.html 
+git commit -m "Make a very short html file; it's just a wrapper for the enormous ELM.JS file."
+git add elm-package.json 
+git commit -m "Save PACKAGE.JSON."
+ls
+ls -lrt
+git status
+git status
+git remote
+git push poudel master
+git add index.html dickensFactory.png 
+git commit -m "Add banner of Dickensian factory.  Hopefully this is not offensive to Scooter Software."
+git push poudel master
+pwd
+ls -lrt
+rm dickensFactory.jpg 
+elm reactor
+find ./ -name playground
+find ./ -name Playground
+find -r ./ -name Playground
+find -R ./ -name Playground
+pwd
+find -name index
+man find
+find -R ./ -name Playground -print
+find  ./ -name Playground -print
+ls
+find elm -print
+find "elm" -print
+gind . "elm" 
+find . "elm" 
+find . elm 
+find . elm  | wc
+find . "elm"  | wc
+find . playground  | wc
+find . playground.elm  | wc
+find . playground.elm 
+find ./ playground.elm 
+find ./ goober
+find ./ goober -print
+find / -newer fooljs -print
+find / -newer index.html  -print
+find ./ -name .js 
+find ./ -name .js -print
+find ./ -name ".js" -print
+ls
+find ./ -name elm.js 
+find ./ -name elm.j 
+find ./ -name elm.*
+elm repl
+cd Dropbox/code/THAT2/
+ls ../T*
+ls
+cd BeginningElmExercises/
+ls
+ls -lrt
+elm repl
+ls -lrt
+elm Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+ls -lrt
+history | grep elm-make
+history | grep make
+echo "  I left off in Elm 3 Functions (50% done on it)
+"
+cd Dropbox/code/THAT2/
+ls
+cd BeginningElmExercises/
+ls
+git remote
+git add simplePage.elm 
+git commit -m "Type in, by rote, the divs, h1, et al, that will make the html.   Don't run or compile it yet; just give it a visual linting."
+git push poudel master
+elm make simplePage.elm 
+elm make simplePage.elm 
+elm make simplePage.elm 
+elm make simplePage.elm 
+elm make simplePage.elm --output elm.js
+elm make simplePage.elm --output elm.js
+elm make simplePage.elm --output elm.js
+ls -lrt
+pwd
+cd ..
+ls
+nano elm-architecture-tutorial/
+ls elm-architecture-tutorial/
+ls elm-architecture-tutorial/note+syntax/
+cd elm-architecture-tutorial/
+ls-lrt
+ls -lrt
+ls -lr
+head first/
+head first/*
+elm make simplePage.elm --output elm.js
+cd ..
+cd ..
+pwd
+cd THAT2
+ls 
+cd BeginningElmExercises/
+ls
+elm make simplePage.elm 
+elm make simplePage.elm 
+ls
+elm make simplePage.elm --output elm.js
+rm elm.js
+elm make simplePage.elm --output index.html
+elm make simplePage.elm --output index.html
+git add simplePage.elm 
+git commit -m "Make the page just print the jumbotronDiv and a bold greeting inside that div."
+elm make simplePage.elm --output index.html
+elm make simplePage.elm --output index.html
+git add simplePage.elm 
+git commit -m "Add a button and an h1 line on your own, making the total lines 3 divs tall."
+git push elm master
+git remote
+git push poudel master
+elm make simplePage.elm --output index.html
+cd Dropbox/code/THAT2/flex-and-CSS/
+git remote
+git remote add froggy https://github.com/atom-box/froggy.git
+git inity
+git init
+git remote add froggy https://github.com/atom-box/froggy.git
+ls -lrt
+git add threeXthree.html script.js nebraska.css 
+git commit -m "First commit. (I just swatted a fly here at the Starbucks.)"
+git push froggy master
+ls -lrt
+git add script.js nebraska.css threeXthree.html 
+git commit -m "Refactor css id's to cardinal words."
+git push froggy master
+git log
+git status
+git add nebraska.css threeXthree.html 
+git commit -m "Invent mini-blox divs to put in Square Five."
+git push froggy master
+git log
+ls -lrt
+git status
+git add nebraska.css 
+git add threeXthree.html script.js 
+git commit -m "Add several miniBlox to Square Six"
+git push froggy master
+git status
+git add nebraska.css 
+git commit -m "Center the Al Kaline photo using FLEX"
+git push froggy master
+git add *.js
+git status
+git commit -m "Try several values for the U2 div javascript."
+git push froggy master
+ls -lrt
+git add script.js nebraska.css threeXthree.html 
+git commit -m "Add vertical centering in some squares via a class: 'checker'."
+git push froggy master
+it add nebraska.css threeXthree.html 
+git add nebraska.css threeXthree.html 
+git commit -m "Tweek fontsize on the  miniblox in div 8."
+git push froggy master'
+git push froggy master
+pwd
+ls -lrt
+git add script.js threeXthree.html 
+git commit -m "Restore point.  Project looks okay."
+git add imitation1.html script2.js 
+git commit -m "First commit. Imitation of restrained look of https://sketchrepo.com/"
+git remote
+git push froggy master
+pwd
+cd ..
+grep -r . cdn 
+grep -r cdn . 
+cd ../..
+pwd
+cd ..
+brew tap d12frosted/emacs-plus
+ brew install emacs-plus
+brew linkapps space
+ln -s /usr/local/opt/emacs-plus/Emacs.app /Applications
+brew linkapps
+brew tap linkapps
+ls /Applications/
+ls /usr/local/opt/
+emacs
+pwd
+ls
+ls -a
+ls -a /usr/local/opt/emacs-plus
+cd ~
+pwd
+ls -a
+git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
+ls -lrt
+ls Library/
+brew tap caskroom/fonts && brew cask install font-source-code-pro
+emacs
+emacs -h
+npm install emacs
+ls -lrt
+emacs
+emacs
+/Applications/Emacs.app/Contents/MacOS/Emacs -nw
+elm repl
+ls -lrt
+elm reactor Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+elm repl
+elm-repl
+elm-repl
+elm-repl
+ls -lrt
+git add Playground.elm 
+git commit -m "Add a long style quote."
+elm make Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+elm make Playground.elm 
+ls -lrt
+git add Playground.elm 
+git commit -m "Make a function that returns a boastful string about climbing any mountain given as an argument."
+git remote
+git push poudel master
+cd /Users/evan/Dropbox/code/tutorials-computers/
+ls
+ls -lrt
+git add elm-my-flashtalk.md 
+git comment -m "Start note-taking for October MadPy flashtalk.  As a markdown file for now."
+git commit -m "Start note-taking for October MadPy flashtalk.  As a markdown file for now."
+git push notes master
+ls -lrt
+cd ../THAT2/
+ls
+cd BeginningElmExercises/
+ls -lrt
+elm make longTry.elm 
+git add longTry.elm 
+git commit -m "Hello world from https://medium.com/actualize-network/comparing-frontend-frameworks-part-6-elm-578714526164"
+git push poudel master
+git status
+git add simplePage.elm 
+git commit -m "Fix minor typos."
+git push poudel master
+pwd
+ls -lrt
+elm make longTry.elm --output page2.html
+elm make longTry.elm --output page2.html
+elm make longTry.elm --output page2.html
+elm make longTry.elm --output page2.html
+elm make longTry.elm --output page2.html
+elm make longTry.elm --output page2.html
+elm make longTry.elm --output page2.html
+elm make longTry.elm --output page2.html
+ls -lrt
+git add longTry.elm 
+git commit -m "Add my line of text at the end, including getting the indentation correct."
+git push poudel master
+elm make longTry.elm --output page2.html
+elm make longTry.elm --output page2.html
+echo "Call Mom at 7:50."
+echo "Call Mom at 7:50."
+elm make longTry.elm --output page2.html
+elm make longTry.elm --output page2.html
+git add longTry.elm 
+git commit -m "Define a three-item css style near the top of the code.  Apply that style to one DIV at the bottom."
+git push poudel master
+elm make longTry.elm --output page2.html
+cd ../..
+pwd
+cd tutorials-computers/
+ls -lrt
+git add elm-my-flashtalk.md 
+git commit -m "Add analogy, js:elm :: night-tent-pitch : daylight-tent-pitch story. Then plumbing version."
+git push notes master
+date
+pwd
+cd ../THAT2/
+ls
+cd BeginningElmExercises/
+ls -lrt
+elm make Playground.elm page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+git add Playground.elm 
+git commit -m "Add a 3 line CSS at the top.  Make a div with two descendents: a button and an h3."
+git push poudel master
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+git add Playground.elm 
+git status
+git commit -m "Add a text input area."
+git push poudel master
+git push poudel master
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+elm make Playground.elm --output page3.html
+git add Playground.elm 
+git log
+git commit -m "On CSS, brighten the Michigan and Contrasty color styles. Fail to access the array, though, for 'stock items'"   
+git push poudel master
+elm repl
+ls -lrt
+elm make Playground.elm 
+elm make Playground.elm 
+elm repl
+pwd
+cd ../..
+pwd
+grep bootstrap .
+grep -r bootstrap ./*
+grep -r bootstrap ./THAT2/*
+find ./* *.css
+pwd
+cd THAT2/
+ls
+cd BeginningElmExercises/
+ls
+elm make longTry.elm  --output page1.html
+ls -rt
+ls -lrt
+git add longTry.elm home.html
+git commit -m "Add a div at start and HTML foundation."
+git push poudel master
+elm make longTry.elm --output long.js
+mv long.js notes.js
+ls -lrt
+mv longTry.elm Notes.elm
+git rm longTry.elm
+git add Notes.elm
+git commit -m "Rename longTry.elm file to Notes.elm."
+ls -lrt
+elm make Notes.elm --output notes.js
+git add home.html 
+git commit -m "Change the html to more like Beginning Elm book."
+git push poudel master
+elm make notes.elm notes.js
+elm make Notes.elm notes.js
+git log Notes.elm
+git reset -HEAD
+git reset --hard Notes.elm
+git reset Notes.elm
+ls -lrt
+elm make Notes.elm --output notes.js
+git add Notes.elm notes.js
+git commit -m "Add external css sheet.  Make jumbo div a deep green."
+git push poudel master
+echo "Styling worked.  Apply flexbox after some froggy practice."
+history
+ls -lrt
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+ls -lrt
+elm make Notes.elm --output notes.js
+less elm-package.json 
+elm make Notes.elm --output notes.js
+elm repl
+npm install --save elm
+ls -lrt
+elm make Notes.elm --output notes.js
+historty
+history
+git log
+git reset 0c5062a4
+ls -lrt
+git reset --soft --HEAD
+git reset --soft HEAD
+ls -lrt
+elm make Notes.elm --output notes.js
+git log
+git revert 0c5062a4aeec1
+git reset HEAD --hard
+elm make Notes.elm --output notes.js
+ls -lrt
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+git status
+git Notes.elm home.html 
+git add Notes.elm home.html 
+git commit -m "Move all nonBS css into the .Elm file. Add a square pink div.""
+git commit -m "Move all nonBS css into the .Elm file. Add a square pink div."
+git push poudel master
+git push poudel master
+git push poudel master
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+git add Notes.elm 
+git commit -m "Change the pink block from div to h1"
+git push poudel master
+elm make Notes.elm --output notes.js
+cal
+fortune
+fortune
+clear
+ls -lrt
+elm make Notes.elm 
+elm make Notes.elm 
+elm make Notes.elm 
+elm make Notes.elm 
+elm make Notes.elm 
+elm make Notes.elm 
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+git status
+git add Notes.elm index.html 
+git commit -m "Stack four small OLIVE blocks at the top."
+git push poudel master
+git push poudel master
+git push poudel master
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+elm make Notes.elm --output notes.js
+cd ../..
+pwd
+cd tutorials-computers/
+git remote
+git pull notes master
+git pull notes master
+git add elm-my-flashtalk.md 
+git pull notes master
+git commit -m "Update laptop version of elm flashtalk."
+git pull notes master
+git mergetool
+git pull notes master
+git status
+git add elm-my-flashtalk.md 
+git commit -m "Merged 2 recent versions of flashtalk."
+git pull notes master
+ls -lrt
+history
+history | grep mergetool
+ls /Applications/
+ls /Applications/Utilities/
+/Applications/Utilities/Disk\ Utility.app/
+ls /Applications/Utilities/Disk\ Utility.app/
+ls /Applications/Utilities/Disk\ Utility.app/Contents/
+run /Applications/Utilities/Disk\ Utility.app
+ls /Applications/Utilities/
+ls /Applications/
+cd Dropbox/code/THAT2/
+ls
+ls -lrt
+cd BeginningElmExercises/
+ls -lrt
+git add base.html 
+git commit -m "Remove unknown style elements from HEADhtml."
+git branch
+git checkout master
+git merge tricks
+git push poudel master
+git checkout tricks
+git branch master
+git checkout master
+git status
+git add css/tricks.css base.html
+git commit -m "Move googlefont to tricks.css."
+ls -lrt
+elm make portfolio.elm 
+elm make 
+elm make 
+elm make portfolio.elm 
+git add portfolio.elm 
+git commit -m "Restore pt.  Layout resembles Snowsoft still."
+git branch
+git push poudel master
+elm make portfolio.elm 
+elm make portfolio.elm 
+elm make portfolio.elm 
+elm make portfolio.elm 
+elm make portfolio.elm 
+elm make portfolio.elm 
+elm make portfolio.elm 
+elm make portfolio.elm 
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+git status
+git add css/tricks.css index.html portfolio.elm 
+git commit -m "Add external .css to just PHOTO div 'article'."
+git push poudel master
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+git add portfolio.elm 
+git commit -m "Discovered CSS only working for 'article', no classes."
+git push poudel master
+git branch
+bc
+cd /Applications/
+ls
+cd Utilities/
+ls
+open -a Terminal.app/
+ls -r Disk\ Utility.app/
+ls -R Disk\ Utility.app/
+tree Disk\ Utility.app/
+ls Disk\ Utility.app/Contents/Info.plist 
+open Disk\ Utility.app/Contents/Info.plist 
+open -a Disk\ Utility.app/Contents/Info.plist 
+ls Disk\ Utility.app/Contents/Info.plist  | grep .app
+ls
+open Grab.app/
+open Disk\ Utility.app/
+pwd
+cd ..
+ls I```
+ls /Users/evan/
+ls /Users/evan/Downloads/
+ls -lrt /Users/evan/Downloads/
+ls -l /Users/evan/Downloads/
+ls -lr /Users/evan/Downloads/
+type ls
+type -P ls
+man type
+asudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/MyVolume --applicationpath /Applications/Install\ macOS\ High\ Sierra.app
+ls /Volumes/
+sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia --volume /Volumes/boot-the-Mac  --applicationpath /Applications/Install\ macOS\ High\ Sierra.app
+cd Dropbox/code/THAT2/styledPort/
+ls
+ls -lrt
+elm make portfolio.elm 
+elm make portfolio.elm 
+elm make portfolio.elm --output portfolio.js
+ls -lrt
+rm index.html 
+git status
+https://github.com/atom-box/protlifo.git
+git init
+pwd
+git remote add prot https://github.com/atom-box/protlifo.git
+git status
+git status >> .gitignore
+nano .gitignore 
+git status >> .gitignore
+nano .gitignore 
+git status
+git add base.html css/* elm-package.json portfolio.elm 
+git commit -m "First commit."
+git push prot master
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+git status
+git add portfolio.elm css/tricks.css 
+git commit -m "Trace CSS effects. Find that line 34 in elm is controlling some styles."
+git push prot master
+elm make portfolio.elm --output portfolio.js
+pwd
+ls -lrt
+cd ../BeginningElmExercises/
+ls -lrt
+git reset --hard --HEAD base.html 
+git reset --hard  base.html 
+git reset   base.html 
+ls base.html 
+ls -l base.html 
+git reset   --HEAD base.html 
+git log
+git reset b136afee57745
+ls -lrt
+git reset -f b136afee57745
+git -f reset  b136afee57745
+git reset HEAD
+git reset HEAD --hard
+ls -lrt
+pwd
+cd ../styledPort/
+ls -lrt
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+cd Dropbox/code/THAT2/styledPort/
+ls
+ls -lrt
+git status
+git css/tricks.css 
+git add  css/tricks.css portfolio.elm 
+git commit -m "Make all divs recognizable and responsive to the CSS styles."
+git push proto master
+git remote
+git push prot master
+pwd
+cd ../..
+ls
+cd ..
+ls
+pwd
+cd code/tutorials-computers/
+ls -lrt
+git add elm-my-flashtalk.md 
+git commit -m "Update talk outline vis-a-vis Pragmatic Programmer 7 Languages."
+git push notes master
+pwd
+cd ../THAT2/
+ls
+cd elm-architecture-tutorial/
+ls
+cd examples/
+ls
+elm make 03-form.elm --output form.html
+elm make 03-form.elm --output form.html
+ls -lrt
+git remote
+elm make 01-button.elm --output button.html
+elm make 05-http.elm  --output http.html
+head 05-http.elm 
+pwd
+cd ../..
+pwd
+ls
+ls
+cd talk/
+ls
+git remote
+git init
+git remote add talk http://github.com/atom-box/elm.git
+git add elm-my-flashtalk.md 
+git commit -m "First commit of moved talk."
+git push talk master
+git mv elm-my-flashtalk.md README.md
+ls -lrt
+git add README.md 
+git commit -m "Renamed file to README.md."
+git push talk master
+git add README.md 
+git commit -m "Fix punctuation."
+git push talk master
+ls
+git add README.md 
+git commit -m "Add intro and links."
+git push talk master
+pwd
+cd ~
+pwd
+ls -a
+less .bashrc
+less .bash_profile
+pwd
+cd Dropbox/code/THAT2/
+ls -lrt
+cd talk/
+ls
+ls -lrt
+git add README.md 
+git commit -m "Add image of ElmArchitecture, Medium link."
+git remote
+git push talk master
+git pull talk master
+git status
+git add dads\ Energy\ Form.png 
+git commit -m "Image to dedicate."
+git status
+git pull talk master
+git status
+git push talk master
+git add README.md 
+git commit -m "Add Pierce's guidelines."
+git status
+git add README.md 
+git commit -m "Add Pierce's guidelines."
+git push talk master
+pwd
+cd ..
+ls -lrt
+cd styledPort/
+ls -lrt
+ls css/*
+ls -l css/*
+git remote
+elm make portfolio.elm --output portfolio.js
+ls -lrt
+elm make portfolio.elm --output portfolio.js
+git add css/* portfolio.elm
+git commit -m "-- Add classes Band & Blox to fill a non-collapsible div
+"
+git push prot master
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+git add css/* portfolio.elm
+git commit -m "-- Refactor to grid to flexbox, since I only aped grid from CSSTricks.
+"
+git push prot master
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.js
+git add css/* portfolio.elm 
+git commit -m "Change typefaces. Delete inherited CSS lines."
+git push prot master
+cd ../..
+pwd
+mkdir fiddle
+rmdir fiddle/
+clone https://github.com/atom-box/fiddle
+git clone https://github.com/atom-box/fiddle.git
+ls -lrt
+cd fiddle/
+ls
+ls -lrt
+git add gigantic.sh 
+git commit -m "Bash script to make large .xls file of nonsense."
+git push fiddle master
+git remote add fiddle https://github.com/atom-box/fiddle.git
+git push fiddle master
+cd Dropbox/code/THAT2/styledPort/
+elm make portfolio.elm --output portfolio.js
+pwd
+cd ../
+ls
+cd elm-architecture-tutorial/
+ls
+ls first/
+cd ..
+pwd
+ls BeginningElmExercises/
+ls 
+grep tree .
+grep -R tree .
+history | grep tree
+pwd
+tree --filelimit 20
+tree --filelimit 9
+tree --filelimit 11
+history | grep tree
+man tree | grep depth
+man tree
+tree --du -D --filelimit 12
+tree --du  --filelimit 12
+man tree
+tree -L 3
+tree -L 2
+tree --du  --filelimit 12
+tree  -D -L 4
+man tree
+tree -P *.css
+tree -P *.css --prune
+tree -P *.css --prune -du
+tree -P *.css --prune -d
+tree -P *.css --prune | wc
+tree -P *.css  | wc
+man tree
+tree -P -L -Q
+man tree
+tree -t  -L 2
+tree -t  -L 2 -D
+tree  -L 2 -Drt
+man tree
+elm repl
+tree -t  -L 2 -Dasdf
+exit
+elm repl
+l
+ls
+pwd
+cd Dropbox/code/THAT2/
+ls
+cd talk/
+ls -lrt
+git commit README.md 
+git remote
+git push talk master
+git add README.md 
+git commit -m "Add blockquote formatting."
+git push talk master
+elm repl
+elm repl
+ls
+cd Dropbox/code/THAT2/
+ls
+ls -rtl
+cd elm-architecture-tutorial/
+ls
+elm-init
+elm init
+cd ..
+ls
+find elm.json ./*
+history | grep find
+find ./ -name elm.json
+find ./ -name elm
+find ./ -name *.json
+find ./ -name core
+pwd
+cd elm-architecture-tutorial/examples/
+ls
+elm-make 00-static-web.elm static.html
+elm make 00-static-web.elm static.html
+elm make 00-static-web.elm --output static.html
+elm init
+cd ../..
+ls
+cd ..
+ls
+pwd
+ls that/
+ls that/talk-in-four-parts/
+pwd
+cd ../..
+ls
+ls elm-package.json 
+ls elm* -lrt
+ls -lrt elm*
+ls node_modules/
+graceful-fs -v
+npm graceful-fs -v
+ls -lrt node_modules/
+pwd 
+find -name elm-package.json -print
+find -name elm-package.json 
+find ./ -name elm-package.json 
+pwd
+find ./ -name elm-package.json | sed 'd/^.*Dropbox.*$/'
+find ./ -name elm-package.json | tr - d /^.*Dropbox.*$/'
+find ./ -name elm-package.json | tr - d /^.*Dropbox.*$/
+find ./ -name elm-package.json | tr - d '.*Dropbox.*'
+find ./ -name elm-package.json | tr -d '.*Dropbox.*'
+find ./ -name elm-package.json | sed 's/.*Dropbox.*//g'
+find ./ -name elm-package.json | sed 's/.*Dropbox.*//g' | tr -d '\n' 
+find ./ -name elm-package.json | sed 's/.*Dropbox.*/--/g' 
+ls elm-
+ls elm-package.json 
+ls .elm/
+ls elm-stuff/
+npm uninstall elm
+elm repl
+un
+sdaf
+cal
+npm uninstall -g elm
+elm repl
+elm-repl
+pwd
+ls elm-package.json 
+ls -l elm-package.json 
+ls .elm/
+ls elm-stuff/
+rm elm-package.json 
+rmdir .elm/
+rmdir -R .elm/
+rm -r .elm/*
+mdir .elm
+rmdir .elm
+rmdir .elm
+rm -r elm-stuff/*
+rm -r elm-stuff/*
+ls elm-stuff/
+ls .elm/
+ls elm-package.json 
+elm-init
+elm init
+npm install -g elm
+npm update
+elm repl
+cd Dropbox/code/THAT2/
+mkidr rebirth
+mkdir rebirth
+rmdir rebirth
+clone https://github.com/atom-box/elm
+git clone https://github.com/atom-box/elm.git
+git init
+ls
+ls -alrt
+rmdir xxx
+rmdir arch
+rmdir .git
+rmdir -r .git/*
+rm -r  .git/*
+rmdir .git
+ls elm
+cd elm/
+cd ..
+ls
+ls talk/
+cd talk2/
+pwd
+ls
+elm init
+elm make examples/02-field.elm --output magic.html
+ls 
+elm make examples/02-field.elm --output magic.html
+elm make examples/00-static-web.elm --output magic.html
+elm make examples/01-button.elm --output magic.html
+ls
+ls -a
+pwd
+git remote
+git remote -v
+git remote add talk https://github.com/atom-box/elm.git
+git status
+git add elm.json 
+git commit -m "Don't forget to commit/update elm.json."
+cd ../talk-deprecated/
+ls
+elm-make examples/00-static-web.elm --output magic.html
+elm make examples/00-static-web.elm --output magic.html
+elm init
+elm make examples/00-static-web.elm --output magic.html
+elm make examples/01-button.elm  --output magic.html
+cd ..
+ls
+mkdir talk3
+rmdir talk3
+git clone https://github.com/evancz/elm-architecture-tutorial.git
+git clone https://github.com/evancz/elm-architecture-tutorial.git
+cd elm-architecture-tutorial/
+ls
+elm make examples/02-field.elm 
+ls
+elm make examples/01-button.elm --output magic.html
+pwd
+ls
+ls ../README.md 
+git status
+cd ../talk2/
+ls
+elm make examples/03-form.elm 
+pwd
+cd ../elm-architecture-tutorial/
+elm make examples/03-form.elm 
+pwd
+git status
+git add README.md 
+git commit -m "Restore Readme from deletion"
+git add README.md 
+git commit "Add linebreaks."
+git commit -m "Add linebreaks."
+git push talk master
+git remote
+git remote -v
+git remote add https://github.com/atom-box/elm.git
+git remote add talk https://github.com/atom-box/elm.git
+git push talk master
+ls -lrt
+rm *.html
+git pull talk master
+git merge talk
+git fetch talk master
+git merge talk
+git merge
+git status
+git remote remove origin
+git remote -v
+git mergetool talk master  --allow-unrelated-histories
+git push talk master
+git pull talk
+git pull talk master
+git pull talk master --allow-unrelated-histories
+git mergetool talk master
+git status
+less README.md 
+git add README.md 
+git commit -m "Merge with remote README."
+ls
+ls examples/
+ls -lrt examples/
+git add examples/*
+git add examples/01-button.elm examples/02-field.elm examples/03-form.elm  examples/04-random.elm 
+git commit -m "Merge with EvanCz download."
+git push talk master
+elm make examples/00-static-web.elm 
+ls -lrt
+cd ..
+cd BeginningElmExercises/
+ls -lrt
+    pwd
+cd ../elm-architecture-tutorial
+git status
+git rm dickensFactory.png home.html index.html page1.html 
+ rm dickensFactory.png home.html index.html page1.html 
+git add base.html 
+git commit -m "1st commit. This is an html anchor."
+git push talk master
+history | grep elm
+cd ~
+ls -a
+ls -a .e*
+ls -a \.e*
+elm repl
+pwd
+cd Dropbox/code/THAT2/
+ls
+ls elm-architecture-tutorial/
+ls -lrt elm-architecture-tutorial/
+ls -lrt elm-architecture-tutorial/examples/
+ls -lrt elm-architecture-tutorial/examples/
+ls -lrt 
+pwd
+pwd
+ls -lrt 
+ls -lrt 
+ls -lrt 
+elm make examples/00-static-web.elm  --output honda.html
+ls
+pwd
+cd elm-architecture-tutorial/
+ls
+elm make examples/00-static-web.elm 
+ls -lrt
+rm index.html 
+elm make examples/00-static-web.elm  --output honda.html
+elm make examples/01-button.elm  --output honda.html
+elm make examples/02-field.elm  --output honda.html
+elm make examples/03-form.elm  --output honda.html
+elm make examples/04-random.elm  --output honda.html
+ls examples/
+elm make examples/06-http.elm  --output honda.html
+cd Dropbox/code/THAT/styledPort/
+cat brutus_eng.txt 
+tr -d '\n' brutus_eng.txt 
+cat brutus_eng.txt | tr -d '\n' 
+man RegEx
+man Regular
+man regex
+man re_format
+man re_format
+man re_format
+cat brutus_eng.txt | tr -d '\n' | sed 's/([:alnum:][:punct:])([:alnum:])/$1\ $2/g' 
+cat brutus_eng.txt | tr -d '\n' | sed 's/([:alnum:][:punct:])([:alnum:])/$1--$2/g' 
+cat brutus_eng.txt | tr -d '\n' | sed 's/\([:alnum:][:punct:]\)\([:alnum:]\)/$1--$2/g' 
+cat brutus_eng.txt | tr -d '\n' | sed 's/\([:alnum:][:punct:]\)\([:alnum:]\)/\1--\2/g' 
+cat brutus_eng.txt | tr -d '\n' > brutus_oneLine_eng.txt
+nano brutus_oneLine_eng.txt 
+cat brutus_eng.txt | tr  '\n' ' '  > brutus_oneLine_eng.txt
+nano brutus_oneLine_eng.txt 
+less brutus_oneLine_eng.txt 
+pwd
+ls
+ls -lrt
+elm make portfolio.elm --output portfolio.js 
+pwd
+git remote
+elm init
+ls -lrt
+elm make portfolio.elm --output portfolio.js 
+ls -lrt
+elm make portfolio.elm --output portfolio.html
+elm make portfolio.elm --output portfolio.js 
+git reset -hard --HEAD portfolio.js
+git reset --hard  portfolio.js
+git reset   portfolio.js
+ls -lrt
+git log
+git log
+git reset bbbb2d10a48cc7498d78
+ls -lrt
+git reset HEAD --hard
+ls -lrt
+git log
+git reset 8ca7a64dca6fe0392e81e60df8e99f60961dfdb0
+ls -lrt
+git log
+git pull prot master
+log
+git log
+git log -decorate
+git log --decorate
+git log --graph
+git log --graph --all
+git reset eec2ec5264a25c626dcd4b5199481077ff7bd991
+ls -lrt
+log
+git log
+git status
+ls -lrt
+ls -lrt *.elm
+git log portfolio.elm
+pwd
+ls -lrt
+elm make portfolio.elm --output portfolio.js
+elm make portfolio.elm --output portfolio.html
+git add portfolio.elm
+git commit -m "Barriques restore point for portfolio.elm."
+git log base.html
+git log portfolio.elm
+elm make portfolio.elm --output portfolio.html
+elm make portfolio.elm --output portfolio.html
+elm make portfolio.elm --output portfolio.html
+elm make portfolio.elm --output portfolio.html
+git add portfolio.elm 
+git commit -m "Remove some unused variables, array."
+git push proto master
+git remote
+git push prot master
+ls
+pwd
+cd ../elm-architecture-tutorial/
+ls
+ls -lrt
+git add README.md 
+git commit -m "Add verb to start of readme."
+git remote
+git push talk master
+git add README.md 
+git commit -m "Fix code display formatting."
+git push talk master
+git add README.md 
+git commit -m "Fix code display formatting."
+git push talk master
+git pull talk master
+ls -lrt
+elm repl
+pwd
+elm --v
+elm --version
+node -v
+npm -v
+ls -lrt examples/
+ls
+tail honda.html 
+ls -lrt
+less honda.html 
+elm make examples/01-button.elm 
+ls -lrt
+mkdir compileds
+elm make examples/01-button.elm --output compileds/button.js
+elm make examples/02-field.elm  --output compileds/reverser.js
+elm make examples/03-form.elm  --output compileds/passoword.js
+elm make examples/06-http.elm  --output compileds/http.js
+cp base.html compileds/base.html
+elm make examples/01-button.elm --output compileds/button.html
+elm make examples/02-field.elm  --output compileds/reverser.html
+elm make examples/03-form.elm  --output compileds/password.html
+elm make examples/06-http.elm  --output compileds/http.html
+ls -l compileds/
+ls
+ls -lrt
+ls compileds/
+ls -lrt compileds/
+ls -lrt
+cd compileds/
+ls
+nano portfolio.elm 
+elm make portfolio.elm --output port.html
+ls
+elm make portfolio.elm  --output port.html
+cd ..
+elm make compileds/portfolio.elm --output port.html
+elm make compileds/portfolio.elm --output port.js
+pwd
+git remote
+clear
+elm repl
+e
+elm repl
+elm repl
+pwd
+cd Dropbox/code/THAT/elm-architecture-tutorial/
+ls
+git status
+git pull talk master
+git add README.md 
+git commit -m "Change local READ.me.  'Prepare to merge'."
+git mergetool README.md 
+git mergetool 
+git status
+git pull talk master
+git add README.md 
+git add README.md 
+git commit -m "Day after presenting, lightly edit the README."
+git push talk master
+git add README.md 
+git commit -m "Day after presenting, lightly edit the README."
+git push talk master
+git add README.md 
+git commit -m "Day after presenting, lightly edit the README."
+git push talk master
+ls -lrt
+rm *.html
+ls -lrt
+rm port.js
+git status
+git add examples/*
+git rm base.html
+git status >> .gitignore
+nano .gitignore 
+git status
+nano .gitignore 
+git status
+git push talk master
+git commit -m "Clean up repo.  Delete some things."
+git push talk master
+git status
+arp -a
+arp -a
+man arp
+arp
+man arp
+arp Uneven_Canoe
+arp -a
+history | grep arp
+ping 192.168.1.2
+ping 192.168.1.3
+ping 192.168.1.4
+ping 192.168.1.5
+ping 192.168.1.6
+ping 192.168.1.7
+ping 192.168.1.6
+ping 192.168.1.1
+for ip in $(seq 1 254); do ping -c 1 192.168.1.$ip; done
+for ip in $(seq 1 254); do ping -c 1 192.168.1.$ip; done
+clear
+for ip in $(seq 1 254); do ping -c 1 192.168.1.$ip; done
+nmap
+sudo apt-get install nmap
+history | grep brew
+brew install nmap
+man chown
+pwd
+for ip in $(seq 1 254); do ping -c 1 192.168.1.$ip; done
+sudo chown -R $(evan) /usr/local/share/info /usr/local/share/man/man5 /usr/local/share/man/man
+sudo chown -R $("evan") /usr/local/share/info /usr/local/share/man/man5 /usr/local/share/man/man
+sudo chown -R evan /usr/local/share/info /usr/local/share/man/man5 /usr/local/share/man/man
+ls /usr/local/share/info/
+ls /usr/local/share/man
+ls -l /usr/local/share/man
+brew install nmap
+sudo chown -R evan /usr/local/share/info /usr/local/share/man/man5 /usr/local/share/man/man7
+brew install nmap
+nmap -sP 192.168.1.*
+nmap -sP 192.168.1.*
+nmap -sP 192.168.1.*
+nmap -sP 192.168.1.*
+nmap -sP 192.168.1.*
+nmap -sP 192.168.1.*
+nmap -sP 192.168.1.*
+sudo chown -R evan /usr/local/share/info /usr/local/share/man/man5 /usr/local/share/man/man7
+for ip in $(seq 1 254); do ping -c 1 192.168.1.$ip; done
+nmap -sP 192.168.1.*
+cd Dropbox/code/
+mkdir robOnDrupal
+cd robOnDrupal
+git init
+nano README.md
+git add README.md 
+git commit -m "Start the Readme."
+git remote add https://github.com/atom-box/robOnDrupal.git
+git remote add rob https://github.com/atom-box/robOnDrupal.git
+git push rob master
+ls -alrt
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+php -r "if (hash_file('SHA384', 'composer-setup.php') === '93b54496392c062774670ac18b134c3b3a95e5a5e5c8f1a9f115f203b75bf9a129d5daa8ba6a13e2cc8a1da0806388a8') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+php composer-setup.php
+php -r "unlink('composer-setup.php');"
+man sftp
+sftp u89220366@home680775943.1and1-data.host
+ssh u89220366@home680775943.1and1-data.host
+ssh u89220366@home680775943.1and1-data.host
+history 30
+ssh u89220366@home680775943.1and1-data.host
+exit
+pwd
+ls -a
+cp .bash_history Dropbox/code/tutorials-computers/
+head  Dropbox/code/tutorials-computers/.bash_history 
+tail  Dropbox/code/tutorials-computers/.bash_history 
+ssh u89220366@home680775943.1and1-data.host
+vi
+vim --help
+man vim
+vimtutor
+pwd
+cd Dropbox/code/one-and-one/
+ls
+ls -lrt
+cd ..
+ls -lrt
+rmdir one-and-one/
+cd bonneville/
+ls
+ls -lrt
+nano README.md 
+nano README.md 
+git status
+git add README.md 
+git commit -m "Add 'About the name'."
+git add index.html  
+git commit -m "Shunt might-use-later code to basement, commented."
+git push one master
+git branch munising
+git checkout munising
+git branch
+git pull one munising
+git pull munising one
+git merge one
+git remote
+ls -lrt
+touch ./*
+ls -lrt
+mv index.bkp oneandoneboiler.html
+git status
+git rm index.bkp
+git status >> .gitignore
+ls -lrt
+ls -alrt
+nano .gitignore 
+git status
+git commit -m "Tidied up folly files and gitignored them."
+history | grep ftp
+nano temp.txt
+ls -lrt
+git add loveletterToBash\&Git.txt 
+git -m "Letter to a friend, 2x."
+git commit -m "Letter to a friend, 2x."
+pwd
+git branch
+git status
+git log
+git merge one
+git checkout master
+git branch
+git push one master
+git merge one
+git checkout munising
+git fetch one
+git merge master
+git push one munising
+git checkout master
+git pull one master
+nano README.md 
+nano README.md 
+ls -lrt
+ls css/
+git merge munising
+git status
+git commit README.md 
+git fetch one
+git commit README.md 
+git status
+ls -lrt
+nano README.md 
+git mergetool README.md
+ls -lrt
+git add README.md 
+git commit -m "Merged versions of README."
+git status
+git add css/thorough.css 
+git commit -m "Add styling from verythorough.git."
+git add reverser-arch2.elm 
+git commit -m "Start Elm migration."
+git push one master
+ls -lrt
+git rm README_BACKUP_3813.md README_BASE_3813.md README_LOCAL_3813.md  README_REMOTE_3813.md 
+ls -lrt
+rm README_BACKUP_3813.md README_BASE_3813.md README_LOCAL_3813.md  README_REMOTE_3813.md 
+ls -lrt
+git status
+git push one master
+git pull one master
+git merge munising
+git push one master
+git status
+git merge
+ls -alrt
+git add -A
+git commit -m "Finish merge."
+git push one master
+git merge munising
+git -d munising
+git branch -d munising
+pwd
+ls -lrt
+git add css/thoroughlyTricked.css 
+git branch
+git commit -m "Hybridize 2 files to make new css" 
+git push one master
+ls -lrt
+git status
+git add *
+git status
+git remote remove origin
+git remote
+git push one master
+git status
+git add index.html  css/thoroughlyTricked.css 
+git commit -m "Bring HTML closer to Thorough style." 
+git add index.html css/thoroughlyTricked.css 
+git commit -m "Add blox, in flex. Connect up MY .css file."
+git push one master
+git add index.html css/thoroughlyTricked.css 
+git commit -m "Colors as VARS. Align footer right. 'Obit' word."
+git push one master
+git add index.html css/thoroughlyTricked.css 
+git commit -m "Pale blue fonts. Lighter font weights."
+git add index.html css/thoroughlyTricked.css 
+git commit -m "Add links to blox."
+git push one master
+history | grep ssh
+ssh u89220366@home680775943.1and1-data.host
+exit
+ssh u89220366@home680775943.1and1-data.host
