@@ -3,17 +3,35 @@ and cssTricks.com */
 
 /* who knew!  css can handle variables:; */
 :root {
-    --lightRock: rgb(194, 186, 172); 
-    --darkRock: rgb(76, 77, 75);
-    --skyColor: rgb(124, 172, 255);
-    --palerSky: rgb(165, 220, 255 );
+    --evYellow: rgb(194, 186, 172); 
+    --evOrange: rgb(242, 131, 0);
+    --evWhite: rgb(230, 230, 210);
+    --evBlack: rgb(30, 30, 25)
 }
 
 body {
   margin: 0;
   text-align: center;
+  background-color: var(--evBlack);
+  color: var(--evOrange) ;
 }
 
+h2 {
+  color: var(--evWhite);
+}
+
+#temp {
+  color: var(--evWhite);
+}
+
+
+li {
+  color: yellow;
+}
+
+
+
+/*
 #provenence {
   color: white;
 }
@@ -112,28 +130,5 @@ a:xlink {
     text-decoration: none;
 }
 
-a:visited {
-    color: pink;
-    background-color: transparent;
-    text-decoration: none;
-}
 
-div:hover {
-  box-shadow: 3px 3px white;
-
-}
-
-
-a:hover {
-    color: red;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-a:active {
-    color: yellow;
-    background-color: transparent;
-    text-decoration: underline;
-}
-
-
+*/

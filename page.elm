@@ -1,4 +1,4 @@
-module Main exposing (main)
+module Page exposing (main)
 
 import Browser exposing (..)
 import Html exposing (..)
@@ -8,7 +8,9 @@ import Html.Events exposing (..)
 
 
 {-
-   https://css-tricks.com/introduction-elm-architecture-build-first-application/
+   The MODEL and UPDATE were
+    derived/forked from
+    https://css-tricks.com/introduction-elm-architecture-build-first-application/
 -}
 
 
@@ -33,7 +35,16 @@ type alias Model =
 
 
 {-
-   x =
+   todo
+   stitch to a launch.html stub
+   CSS that.
+   export this model to a module?
+    add some github candy corn colors
+    3, 0, 22 black
+    242, 131, 0 orange
+    253 237, 34 yellow
+    230 230 230 white?
+
 -}
 
 
@@ -113,7 +124,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ div [] [ text "Searchable Bill of Rights:" ]
+        [ h2 [ id "temp" ] [ text "Searchable Bill of Rights:" ]
         , input [ placeholder "Filter…", onInput Filter ] []
         , button [ onClick Add ] [ text "Add New" ]
         , ul [] (List.map viewEntry model.results)
