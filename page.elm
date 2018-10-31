@@ -36,15 +36,10 @@ type alias Model =
 
 {-
    todo
-   stitch to a launch.html stub
-   CSS that.
-   export this model to a module?
-    add some github candy corn colors
-    3, 0, 22 black
-    242, 131, 0 orange
-    253 237, 34 yellow
-    230 230 230 white?
-
+    Add directions.
+    Make the loading come from an external file, not hardcoded into page.elm
+    Make the content my BASH.
+    Add a button for a pastable input window.
 -}
 
 
@@ -125,8 +120,8 @@ view : Model -> Html Msg
 view model =
     div []
         [ h2 [ id "temp" ] [ text "Searchable Bill of Rights:" ]
-        , input [ placeholder "Filter…", onInput Filter ] []
-        , button [ onClick Add ] [ text "Add New" ]
+        , input [ placeholder "enter a search term", onInput Filter ] []
+        , button [ onClick Add ] [ text "Add New Amendment!" ]
         , ul [] (List.map viewEntry model.results)
         ]
 

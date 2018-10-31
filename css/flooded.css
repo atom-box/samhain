@@ -3,10 +3,11 @@ and cssTricks.com */
 
 /* who knew!  css can handle variables:; */
 :root {
-    --evYellow: rgb(194, 186, 172); 
+    --evGray: rgb(194, 186, 172); 
     --evOrange: rgb(242, 131, 0);
     --evWhite: rgb(230, 230, 210);
-    --evBlack: rgb(30, 30, 25)
+    --evBlack: rgb(30, 30, 25);
+    --evYellow: rgb(253, 237, 34)
 }
 
 body {
@@ -20,13 +21,20 @@ h2 {
   color: var(--evWhite);
 }
 
+input {
+  background-color: var(--evYellow)
+}
+
 #temp {
   color: var(--evWhite);
 }
 
-
 li {
   color: yellow;
+}
+
+li:nth-child(even) {
+    color: var(--evOrange);
 }
 
 
