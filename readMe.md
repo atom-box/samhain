@@ -1,4 +1,5 @@
-# Elm Project: Search a small text file
+# Elm Project: 
+This is a code snippet to search a small text file, written in Elm language
 ## Click here to run my code snippet: 
  [Run!](http://littlefurnace.com/elm)
 ## What's going on here
