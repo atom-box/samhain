@@ -1,10 +1,7 @@
 # Elm Project: 
-This is a code snippet to search a small text file, written in Elm language
+This is a code snippet to search a small text file, written in Elm language.  I showed this at two [talks](https://github.com/atom-box/MKE) in 2018.  
 ## Click here to run my code snippet: 
  [Run!](http://littlefurnace.com/elm)
-## What's going on here
-I showed this at two [talks](https://github.com/atom-box/MKE) in 2018.  
-
 ## Where is the actual Elm code? 
 Elm compiles down to Javascript.  That compiled file is at __assets/page.js__     
 The Elm file is at __page.elm__.  Note the three sections there are Model, Update, View.  
